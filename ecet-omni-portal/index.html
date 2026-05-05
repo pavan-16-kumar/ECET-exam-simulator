@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECET Exam Simulator</title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mammoth@1.4.2/mammoth.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/exam.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- VIEW 1: UPLOAD & SETUP -->
+    <div id="setup-view" class="view-container active">
+        <div class="setup-hero">
+            <h1>📘 ECET Exam Simulator</h1>
+            <p>Upload a PDF or Word question paper, and practice in a realistic TCS iON-like interface.</p>
+            
+            <div class="api-key-section">
+                <label for="gemini-key">Gemini API Key (Optional, for explanations):</label>
+                <input type="password" id="gemini-key" placeholder="AIzaSy...">
+                <small>Get a free key from Google AI Studio. We do not store this key.</small>
+            </div>
+
+            <div class="paper-selection-area" style="background: rgba(255,255,240,0.15); border: 2px dashed rgba(255,255,200,0.7); border-radius: 1.5rem; padding: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">
+                <label for="default-paper-select" style="font-weight: bold; font-size: 1.2rem;">Select an ECET Paper:</label>
+                <select id="default-paper-select" style="width: 100%; max-width: 500px; padding: 0.75rem; border-radius: 0.5rem; font-size: 1rem;">
+                    <option value="" disabled selected>-- Choose a Paper --</option>
+                    <option value="ecet papers/ts_ecet_2026_highly_curated_guess.json">🔥 TS ECET 2026 High-Weightage Guess Paper (80% Accuracy Target)</option>
+                    <option value="ecet papers/ts_ecet_2026_full_prediction.json">TS ECET 2026 Full Prediction (200 Marks)</option>
+                    <option value="ecet papers/ts_ecet_mock_2026.json">TS ECET 2026 Mock (Fully Interactive JSON)</option>
+                    <option value="ecet papers/paper_1.json">ECET 2024 CSE (Fully Interactive JSON)</option>
+                    <option value="ecet papers/ecet_2020_cse.json">ECET 2020 CSE (Fully Interactive JSON)</option>
+                    <option value="ecet papers/Computer Science and Engineering 31st Aug 2020 Shift 1 SET 2.pdf">ECET 2020 CSE (PDF Mode)</option>
+                    <option value="ecet papers/Computer Science and Engineering 3rd Aug 2021 Shift1_80089497.pdf">ECET 2021 CSE (PDF Mode)</option>
+                    <option value="ecet papers/TS_ECET_2023_Computer_Science_and_Engineering_Question_Paper_916e769ecef2a03fcbfe9ba7211a279d.pdf">TS ECET 2023 CSE (PDF Mode)</option>
+                    <option value="ecet papers/TS_ECET_2024_Computer_Science_and_Engineering_Question_Paper_712e6253037dee5a8a639f5f7171939a.pdf">TS ECET 2024 CSE (PDF Mode)</option>
+                </select>
+                
+                <div class="file-buttons">
+                    <button id="loadDefaultBtn" class="btn btn-outline" style="background: white; color: #0b2b3b;">Load Selected Paper</button>
+                </div>
+            </div>
+            
+            <div id="loading-indicator" class="hidden">
+                <div class="spinner"></div>
+                <p>Parsing document... please wait.</p>
+            </div>
+            
+            <div id="setup-start-area" class="hidden">
+                <p id="setup-stats"></p>
+                <button id="startExamBtn" class="btn btn-solid">🚀 Start Exam</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- VIEW 2: EXAM INTERFACE (TCS iON STYLE) -->
+    <div id="exam-view" class="view-container hidden">
+        <div class="exam-header">
+            <div class="exam-title">ECET Mock Exam</div>
+            <div class="timer-container">
+                Time Left: <span id="time-left">00:00:00</span>
+            </div>
+            <div class="candidate-info">
+                <div class="candidate-avatar">👤</div>
+                <div class="candidate-details">
+                    <span>Candidate Name: <strong>John Doe</strong></span>
+                    <span>Exam: ECET (Mock)</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="exam-body">
+            <div class="left-panel">
+                <div class="sections-bar" id="sections-bar">
+                    <!-- Section tabs injected via JS -->
+                </div>
+                
+                <div id="pdf-viewer-container" class="hidden" style="flex: 1; border-bottom: 1px solid #cbd5e1;">
+                    <iframe id="pdf-iframe" style="width: 100%; height: 100%; border: none;"></iframe>
+                </div>
+                
+                <div class="question-content" id="question-content-area">
+                    <div class="q-header">
+                        <span id="q-no">Question 1</span>
+                        <div class="q-actions hidden" id="q-actions-during-exam">
+                            <!-- For showing explanations later -->
+                        </div>
+                    </div>
+                    <div class="q-text" id="q-text"></div>
+                    <div class="options" id="options-container">
+                        <!-- Options injected via JS -->
+                    </div>
+                </div>
+
+                <div class="exam-footer">
+                    <button class="btn-exam" id="btn-mark-review">Mark for Review & Next</button>
+                    <button class="btn-exam" id="btn-clear">Clear Response</button>
+                    <button class="btn-exam" id="btn-prev">Previous</button>
+                    <button class="btn-exam btn-exam-primary" id="btn-save-next">Save & Next</button>
+                </div>
+            </div>
+            
+            <div class="right-panel">
+                <div class="palette-header">
+                    <div class="palette-legend">
+                        <div class="legend-item"><span class="badge answered">0</span> Answered</div>
+                        <div class="legend-item"><span class="badge not-answered">0</span> Not Answered</div>
+                        <div class="legend-item"><span class="badge not-visited">0</span> Not Visited</div>
+                        <div class="legend-item"><span class="badge marked">0</span> Marked for Review</div>
+                    </div>
+                </div>
+                <div class="palette-grid" id="palette-grid">
+                    <!-- Buttons injected via JS -->
+                </div>
+                <div class="submit-section">
+                    <button id="submitExamConfirmBtn" class="btn btn-solid w-100">Submit Exam</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VIEW 3: REPORT & EXPLANATIONS -->
+    <div id="report-view" class="view-container hidden">
+        <div class="report-header">
+            <h2>📊 ECET Performance Report</h2>
+            <button class="btn btn-outline" id="btn-back-setup">Back to Home</button>
+        </div>
+        <div class="report-content" id="report-content-area">
+            <!-- Rank and Score -->
+        </div>
+        
+        <div class="detailed-review">
+            <h3>Review Questions & Explanations</h3>
+            <div id="review-questions-list">
+                <!-- Detailed questions with GPT integration -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="submit-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3>⚠️ Submit Exam</h3>
+                <button class="btn-close" onclick="document.getElementById('submit-modal').classList.add('hidden')">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to submit the exam? You cannot change your answers after submission.</p>
+                <div style="display: flex; gap: 1rem; margin-top: 1.5rem; justify-content: flex-end;">
+                    <button class="btn btn-outline" onclick="document.getElementById('submit-modal').classList.add('hidden')">Cancel</button>
+                    <button class="btn btn-solid" id="confirm-submit-btn">Yes, Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="home-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3>⚠️ Back to Home</h3>
+                <button class="btn-close" onclick="document.getElementById('home-modal').classList.add('hidden')">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to go back? Your current results will be lost.</p>
+                <div style="display: flex; gap: 1rem; margin-top: 1.5rem; justify-content: flex-end;">
+                    <button class="btn btn-outline" onclick="document.getElementById('home-modal').classList.add('hidden')">Cancel</button>
+                    <button class="btn btn-solid" id="confirm-home-btn">Yes, Go Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ai-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3>🤖 AI Explanation</h3>
+                <button class="btn-close" id="btn-close-ai">×</button>
+            </div>
+            <div class="modal-body">
+                <div id="ai-loading" class="hidden">
+                    <div class="spinner"></div>
+                    <p>ChatGPT is thinking...</p>
+                </div>
+                <div id="ai-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/parser.js"></script>
+    <script src="js/ai.js?v=2"></script>
+    <script src="js/rank.js"></script>
+    <script src="js/exam.js"></script>
+    <script src="js/app.js?v=2"></script>
+</body>
+</html>

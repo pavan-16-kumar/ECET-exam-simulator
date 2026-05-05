@@ -1,0 +1,1402 @@
+[
+  {
+    "questionNumber": 1,
+    "questionCode": "MATH_2021_01",
+    "text": "If $A=\\begin{matrix}1&0&0\\\\ 1&0&1\\\\ 0&1&0\\end{matrix}.$ then $A^{50}=$",
+    "options": ["$\\begin{matrix}1&0&0\\\\ 0&1&0\\\\ 0&0&1\\end{matrix}$", "$\\begin{matrix}1&0&0\\\\ 25&1&0\\\\ 25&0&1\\end{matrix}$", "$\\begin{matrix}1&0&0\\\\ 24&1&0\\\\ 24&0&1\\end{matrix}$", "$\\begin{matrix}1&0&0\\\\ 50&1&0\\\\ 50&0&1\\end{matrix}$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 2,
+    "questionCode": "MATH_2021_02",
+    "text": "If $a+b+c=0, |\\begin{matrix}ax&by&cz\\\\ ay&az&bx\\\\ az&bx&cy\\end{matrix}|=k|\\begin{matrix}x&y&z\\\\ y&z&x\\\\ z&x&y\\end{matrix}|=abc(x^3+y^3+z^3)-xyz(a^3+b^3+c^3),$ then $k=$",
+    "options": ["xyz", "abc", "x+y+z", "0"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 3,
+    "questionCode": "MATH_2021_03",
+    "text": "Consider the statements with reference to the 3x3 matrices A and B and k is a constant. I) $A=kB \\Rightarrow |A|=k|B|$. II) $adj(AB)=adj(B)adj(A)$. III) for a matrix C, if $A=BC \\Rightarrow C=B^{-1}A$. Which of the above are correct?",
+    "options": ["Only I and II", "Only II", "Only III", "Only II and III"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 4,
+    "questionCode": "MATH_2021_04",
+    "text": "If the solution of the system of equations $x-y+z=4, 2x+y-3z=0, x+y+z=2$ is (x,y,z), then $x+y+z=$",
+    "options": ["0", "3", "2", "4"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 5,
+    "questionCode": "MATH_2021_05",
+    "text": "If $\\frac{3x-2}{(x+1)(2x^2+3)}=\\frac{A}{x+1}-\\frac{Bx+C}{2x^2+3}$ then $A+B+C=$",
+    "options": ["2", "-4", "0", "-2"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 6,
+    "questionCode": "MATH_2021_06",
+    "text": "If $y=\\frac{a^x+a^{-x}}{2}, x>0$ and $a>1$ then $x=$",
+    "options": ["$\\frac{a^y-a^{-y}}{2}$", "$log_a(y+\\sqrt{y^2-1})$", "$log_a(\\frac{y-\\sqrt{y^2-1}}{2})$", "$log_{1/a}y$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 7,
+    "questionCode": "MATH_2021_07",
+    "text": "If $a^{2019-x} \\cdot b^{2021x} = a^{x+2021} \\cdot b^{2019x}$, then $x=$",
+    "options": ["$log_{(b/a)}b$", "$log_{(a/b)}b$", "$log_{(b/a)}a$", "$log_{(a/b)}a$"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 8,
+    "questionCode": "MATH_2021_08",
+    "text": "If $tan \\theta = \\frac{p}{q}$ then $\\frac{p sin \\theta - q cos \\theta}{p sin \\theta + q cos \\theta}=$",
+    "options": ["$\\frac{p-q}{p+q}$", "$\\frac{p^2-q}{p+q^2}$", "$\\frac{p^2-q^2}{p^2+q^2}$", "$\\frac{2p}{p+q}$"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 9,
+    "questionCode": "MATH_2021_09",
+    "text": "If area of triangle is 75 sq.cm and two sides are 20cm and 15cm, the included angle is",
+    "options": ["60 or 120 deg", "30 or 150 deg", "45 or 135 deg", "90 or 135 deg"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 10,
+    "questionCode": "MATH_2021_10",
+    "text": "If $cosh 2x = 99$, then $coth x =$",
+    "options": ["$\\frac{5}{7\\sqrt{2}}$", "$\\frac{10}{7\\sqrt{2}}$", "$\\frac{10}{2\\sqrt{7}}$", "$\\frac{5}{2\\sqrt{7}}$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 11,
+    "questionCode": "MATH_2021_11",
+    "text": "Complex number 'z' with least modulus satisfying $|z-2+2i|=1$ is",
+    "options": ["$(2-\\frac{1}{\\sqrt{2}})(1+i)$", "$(2+\\frac{1}{\\sqrt{2}})(1+i)$", "$(2-\\frac{1}{\\sqrt{2}})(1-i)$", "$(2+\\frac{1}{\\sqrt{2}})(1-i)$"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 12,
+    "questionCode": "MATH_2021_12",
+    "text": "If $\\frac{(1+i)x-2i}{3+i} + \\frac{(2-3i)y+i}{3-i} = 1$, then $x+y=$",
+    "options": ["75/67", "18/37", "57/35", "66/23"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 13,
+    "questionCode": "MATH_2021_13",
+    "text": "$(\\frac{\\sqrt{3}+i}{2})^6 + (\\frac{\\sqrt{3}-i}{2})^6=$",
+    "options": ["-2", "-4", "-6", "-8"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 14,
+    "questionCode": "MATH_2021_14",
+    "text": "If $x+y+1=0$ is changed to $x cos \\alpha + y sin \\alpha = p (p>0)$, then $\\alpha=$",
+    "options": ["$\\pi/4$", "$3\\pi/4$", "$5\\pi/4$", "$7\\pi/4$"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 15,
+    "questionCode": "MATH_2021_15",
+    "text": "GCD of p,q,r is 1. If $px+qy+r=0$ passes through (4,3) and sum of intercepts is 14, then $p+q+r=$",
+    "options": ["-25", "-23", "-17", "31"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 16,
+    "questionCode": "MATH_2021_16",
+    "text": "Distance between parallel lines $3x-4y+20=0$ and $3x-4y+5=0$ is",
+    "options": ["15 units", "20 units", "3 units", "5 units"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 17,
+    "questionCode": "MATH_2021_17",
+    "text": "Distance between centers of circles touching axes and $3x+4y=12$ in 1st quadrant is",
+    "options": ["$5\\sqrt{3}$", "$2\\sqrt{5}$", "$3\\sqrt{5}$", "$5\\sqrt{2}$"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 18,
+    "questionCode": "MATH_2021_18",
+    "text": "Equation of tangent to $x^2+y^2-2x+8y-23=0$ with slope 3 is",
+    "options": ["$6x-2y+25=0$", "$3x-y+27=0$", "$3x-y+23=0$", "$3x-y+13=0$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 19,
+    "questionCode": "MATH_2021_19",
+    "text": "Interval for $\\lambda$ if $3x-4y=\\lambda$ cuts $x^2+y^2-4x-8y=5$ at two points is",
+    "options": ["(15, 35)", "(35, 15)", "(-35, 15)", "(-15, 35)"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 20,
+    "questionCode": "MATH_2021_20",
+    "text": "For $A \\ne 0$, $Lim_{n \\rightarrow \\infty} (\\frac{A+e^{nx}}{x+Ae^{nx}}) =$",
+    "options": ["1 if x>0", "A/x if x<0", "A/x if x>0", "0 if x in R"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 21,
+    "questionCode": "MATH_2021_21",
+    "text": "If $f(x+y)=f(x)f(y)$, $f'(0)=-3$, $f(5)=9$, then $f'(5)=$",
+    "options": ["-27", "6", "-1/3", "-3"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 22,
+    "questionCode": "MATH_2021_22",
+    "text": "If $y=x^x$, then $\\frac{x}{y}\\frac{d^2y}{dx^2}+1=$",
+    "options": ["x", "$y^2$", "$y(1+log_e x)^2$", "$x(1+log_e x)$"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 23,
+    "questionCode": "MATH_2021_23",
+    "text": "Angle of intersection between $x^2+y^2=36\\sqrt{2}$ and $x^2-y^2=36$ is",
+    "options": ["$\\pi/6$", "$\\pi/4$", "$\\pi/3$", "$\\pi/12$"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 24,
+    "questionCode": "MATH_2021_24",
+    "text": "If m is slope of tangent to $e^y=1+x^2$ then",
+    "options": ["|m|>1", "m>1", "m>-1", "|m|<=1"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 25,
+    "questionCode": "MATH_2021_25",
+    "text": "Function $f(x)=x^3-18x^2+96x+4$. $M-m=$",
+    "options": ["32", "22", "42", "52"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 26,
+    "questionCode": "MATH_2021_26",
+    "text": "If $u=log(\\frac{x^2+y^2}{x^5+y^5})$, then $(x\\frac{\\partial u}{\\partial x} + y\\frac{\\partial u}{\\partial y})=$",
+    "options": ["e^u", "-2", "log(u)", "-3"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 27,
+    "questionCode": "MATH_2021_27",
+    "text": "If $f(t)=1+t^2+t^4+t^6$, then $\\int f(tan x) dx =$",
+    "options": ["$x+\\frac{tan^2x}{3}+\\frac{tan^5x}{5}+\\frac{tan^7x}{7}+c$", "$tan x + \\frac{tan^5x}{5} + c$", "$tan^2x + \\frac{tan^5x}{5} + c$", "$tan x + \\frac{tan^3x}{3} + \\frac{tan^5x}{5} + \\frac{tan^7x}{7} + c$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 28,
+    "questionCode": "MATH_2021_28",
+    "text": "If $\\int ((1+x)sin x + (1-x)cos x) dx = A(sin x - cos x) + f(x)(sin x + cos x) + C$, then $A f(x) =$",
+    "options": ["3x", "3 sin x", "-2x", "x^2 + sin x"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 29,
+    "questionCode": "MATH_2021_29",
+    "text": "If $\\int x^5 e^{x^2} dx = \\frac{1}{2} e^{x^2} f(x) + c$ then $f(2)=$",
+    "options": ["8", "9", "10", "12"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 30,
+    "questionCode": "MATH_2021_30",
+    "text": "$Lim_{n\\rightarrow\\infty} \\frac{1}{n} \\sum sin(k/n) =$",
+    "options": ["cos(1)", "$cos(1/2)$", "$2 sin^2(1/2)$", "log 2"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 31,
+    "questionCode": "MATH_2021_31",
+    "text": "Area bounded by $y=(x-1)(x-2)(x-3)$ and x-axis between 1 and 3 is",
+    "options": ["5/2", "11/2", "1/2", "7/4"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 32,
+    "questionCode": "MATH_2021_32",
+    "text": "Area bounded by $y=sin x$ and $y=cos x$, x-axis, 0 to pi/2 is",
+    "options": ["Twice area sin-cos 0,pi/4", "Equal to sin 0,pi/4", "Equal to sin+cos 0,pi/2", "Twice area sin 0,pi/4"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 33,
+    "questionCode": "MATH_2021_33",
+    "text": "Approximate value of $\\int_0^6 f(x) dx$ from table data:",
+    "options": ["8.516", "9.716", "9.125", "9.203"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 34,
+    "questionCode": "MATH_2021_34",
+    "text": "If p,q are order and degree of $y^2 y'' + 3x(y')^{1/3} = sin x - x^2y^2$ then pq =",
+    "options": ["2", "6", "15", "12"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 35,
+    "questionCode": "MATH_2021_35",
+    "text": "Equation of curve through origin with $y' = (x-y)/(x+y)$ is",
+    "options": ["$x^2-y^2-2xy=0$", "$x^2-y^2+2xy=0$", "$x^2+y^2-2xy=0$", "$x^2+y^2+2xy=0$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 36,
+    "questionCode": "MATH_2021_36",
+    "text": "Solution of $n y' - ky = 0, y(0)=1$ approaches zero as $x\\rightarrow\\infty$ when",
+    "options": ["k=0", "k>0", "k<0", "k is real"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 37,
+    "questionCode": "MATH_2021_37",
+    "text": "General solution of $x y' + y = x^3 y^6$ is",
+    "options": ["$(5x^3-cx^5)y^5=2$", "$(5x^5-cx^3)y^5=2$", "$(5x^5+cx^3)y^5=2$", "$(5x^3+cx^5)y^5=2$"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 38,
+    "questionCode": "MATH_2021_38",
+    "text": "Ratio of PI of $y''-6y'+13y=8e^{3x}sin 2x$ to PI of $y''+4y=sin 2x$ is",
+    "options": ["$e^{2x}$", "$8e^{3x}$", "8 sin 2x", "$8e^{3x}sin 2x$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 39,
+    "questionCode": "MATH_2021_39",
+    "text": "The PI of $y''+4y=-4 cos 2x$ is",
+    "options": ["-x sin 2x", "-x/2 sin 2x", "-x/2 cos 2x", "-x cos 2x"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 40,
+    "questionCode": "MATH_2021_40",
+    "text": "Laplace transform of $f(t)=|t-1|+|t+1|, t>=0$ is",
+    "options": ["$2/s (s+e^{-s})$", "$2/s^2 (s+e^{-s})$", "$2/s^2 (s-e^{-s})$", "$2/s (s-e^{-s})$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 41,
+    "questionCode": "MATH_2021_41",
+    "text": "If $L\\{F(t)\\} = \\frac{2s+5}{s^2+2s-3}$ then $L\\{F(2t)\\} =$",
+    "options": ["$\\frac{2s+10}{s^2+4s-12}$", "$\\frac{2s+10}{s^2+4s+12}$", "$\\frac{2s+10}{s^2+6s-12}$", "$\\frac{s+5}{s^2+4s-12}$"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 42,
+    "questionCode": "MATH_2021_42",
+    "text": "If $f(t)=sin t + (sin 2t-sin t)u(t-\\pi) + (sin 3t-sin 2t)u(t-2\\pi)$, then f(t) when $\\pi \\le t \\le 2\\pi$ is",
+    "options": ["sin t", "sin 2t", "sin 3t", "sin t + sin 2t"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 43,
+    "questionCode": "MATH_2021_43",
+    "text": "Laplace transform of $f(t) = 0, (t-1), 1$ piecewise function",
+    "options": ["$(e^{-s}+e^{-2s})/s^2$", "$(e^{-s}-e^{-2s})/s$", "$(e^{-s}-e^{-2s})/s^2$", "$(e^{-2s}-e^{-s})/s^2$"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 44,
+    "questionCode": "MATH_2021_44",
+    "text": "If $L^{-1}\\{\\frac{3s+1}{(s+1)^4}\\} = e^{-t}F(t)$ then $F(1) =$",
+    "options": ["1/6", "1/3", "7/6", "5/6"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 45,
+    "questionCode": "MATH_2021_45",
+    "text": "If $L(f(t)) = \\frac{1}{(s+4)^{5/2}}$ then $f(t)$ is",
+    "options": ["$\\frac{4}{3\\sqrt{\\pi}}e^{-4t}t^{3/2}$", "$\\frac{4}{3\\sqrt{\\pi}}t^{3/2}$", "$\\frac{4}{3\\pi}e^{4t}t^{3/2}$", "$\\frac{4}{3\\sqrt{\\pi}}e^{-4t}t^{5/2}$"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 46,
+    "questionCode": "MATH_2021_46",
+    "text": "L transform for $y''' + 2y'' - y' - 2y = 0, y(0)=y'(0)=0, y''(0)=3$",
+    "options": ["$3/((s^2-1)(s-2))$", "$3/((s^2-1)(s+2))$", "$3/((s^2+1)(s+2))$", "$3/((s^2+1)(s-2))$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 47,
+    "questionCode": "MATH_2021_47",
+    "text": "Let $f(x)=e^{2x}$ in $(-\\pi, \\pi)$. $a_0 =$",
+    "options": ["$(sinh 2\\pi)/(8\\pi)$", "$(sinh 2\\pi)/\\pi$", "$(sinh 2\\pi)/(4\\pi)$", "$(sinh 2\\pi)/(2\\pi)$"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 48,
+    "questionCode": "MATH_2021_48",
+    "text": "If $f(x)=0, sin x$ periodic. $b_1+b_2+b_3 =$",
+    "options": ["0", "-1", "1/2", "1/4"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 49,
+    "questionCode": "MATH_2021_49",
+    "text": "Periodic function coefficient of $cos \\frac{n\\pi x}{p}$ is",
+    "options": ["$1/p\\int f cos nx dx$", "$1/(2p)\\int f cos (nx/p) dx$", "$2/p\\int f cos (n\\pi x/p) dx$", "$1/p\\int f cos (n\\pi x/p) dx$"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 50,
+    "questionCode": "MATH_2021_50",
+    "text": "If $f(x)=|cos x|$, $a_0+b_1 =$",
+    "options": ["$-4/\\pi^2$", "2/\\pi", "4/\\pi", "$-2/\\pi^2$"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 51,
+    "questionCode": "PHYS_2021_51",
+    "text": "Dimensional formulae same for:",
+    "options": ["Heat & Temp", "Work & Power", "Work & Energy", "Power & Energy"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 52,
+    "questionCode": "PHYS_2021_52",
+    "text": "Photoelectrons emitted proportional to:",
+    "options": ["Intensity", "Frequency", "Velocity", "Work-function"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 53,
+    "questionCode": "PHYS_2021_53",
+    "text": "Superconducting state is perfectly:",
+    "options": ["Diamagnetic", "Paramagnetic", "Ferromagnetic", "Non-magnetic"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 54,
+    "questionCode": "PHYS_2021_54",
+    "text": "Ideal gas compressed isochorically until pressure doubles. Final T?",
+    "options": ["2T", "T/2", "T", "3T"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 55,
+    "questionCode": "PHYS_2021_55",
+    "text": "Match process to constant: Isochoric, Isobaric, Isothermal, Adiabatic",
+    "options": ["A-i, B-ii", "A-iv, B-ii", "A-iv, B-iii", "A-iv, B-i, C-ii, D-iii"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 56,
+    "questionCode": "PHYS_2021_56",
+    "text": "Cp - Cv for a gas represents:",
+    "options": ["Incr in KE", "Incr in PE", "External work", "Internal work"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 57,
+    "questionCode": "PHYS_2021_57",
+    "text": "Two vectors equal magnitude R at 60 deg. Resultant?",
+    "options": ["$R/\\sqrt{2}$", "$2\\sqrt{2} R$", "$\\sqrt{2} R$", "$\\sqrt{3} R$"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 58,
+    "questionCode": "PHYS_2021_58",
+    "text": "i-j direction where i=East, j=North?",
+    "options": ["North-East", "North-West", "South-East", "South-West"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 59,
+    "questionCode": "PHYS_2021_59",
+    "text": "Angle where |a.b|=|axb|?",
+    "options": ["0", "pi/4", "pi/2", "pi"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 60,
+    "questionCode": "PHYS_2021_60",
+    "text": "Thrown from 500m at 100m/s. Time to ground?",
+    "options": ["$\\sqrt{80}$", "40", "20", "10"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 61,
+    "questionCode": "PHYS_2021_61",
+    "text": "Max height kicked at 40m/s at 30 deg?",
+    "options": ["60m", "40m", "20m", "10m"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 62,
+    "questionCode": "PHYS_2021_62",
+    "text": "Produces least friction?",
+    "options": ["Sliding", "Composite", "Rolling", "Static"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 63,
+    "questionCode": "PHYS_2021_63",
+    "text": "Stopping distance for unequal mass same speed?",
+    "options": ["Small for light", "Small for heavy", "By volume", "Same for both"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 64,
+    "questionCode": "PHYS_2021_64",
+    "text": "Work lifting 100kg through 10cm?",
+    "options": ["100J", "1000J", "10,000J", "1J"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 65,
+    "questionCode": "PHYS_2021_65",
+    "text": "Equal momentum: light vs heavy body energy?",
+    "options": ["Light has more", "Light has less", "KE equal", "Independent"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 66,
+    "questionCode": "PHYS_2021_66",
+    "text": "SHM restoring force proportional to:",
+    "options": ["Amplitude", "Frequency", "Velocity", "Displacement"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 67,
+    "questionCode": "PHYS_2021_67",
+    "text": "Time period for $x=25 sin(2\\pi t + \\pi/2)$?",
+    "options": ["1s", "2s", "3s", "4s"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 68,
+    "questionCode": "PHYS_2021_68",
+    "text": "Length of pendulum with period 10s?",
+    "options": ["24.84cm", "2.484cm", "2.484m", "24.84m"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 69,
+    "questionCode": "PHYS_2021_69",
+    "text": "Sound intensity measured in:",
+    "options": ["Joule", "Ampere", "Decibel", "Volt"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 70,
+    "questionCode": "PHYS_2021_70",
+    "text": "Sabine reverberation time proportional to:",
+    "options": ["Vol hall / absorption", "Absorption / vol", "Both", "Independent"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 71,
+    "questionCode": "PHYS_2021_71",
+    "text": "Does not regain shape when force removed:",
+    "options": ["Elastic", "Perf Elastic", "Inelastic", "Plastic"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 72,
+    "questionCode": "PHYS_2021_72",
+    "text": "Viscosity of gas:",
+    "options": ["Decr with T", "Incr with T", "Indep T", "Indep P"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 73,
+    "questionCode": "PHYS_2021_73",
+    "text": "Ohm's law not applicable to:",
+    "options": ["DC", "High current", "Small resistors", "Semiconductors"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 74,
+    "questionCode": "PHYS_2021_74",
+    "text": "Circuit current through 50 ohm is 0, R is:",
+    "options": ["30", "40", "50", "100"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 75,
+    "questionCode": "PHYS_2021_75",
+    "text": "Force between magnetic poles m1, m2 at distance d:",
+    "options": ["$\\mu m_1m_2/4\\pi d^2$", "$\\mu_0 m_1m_2/4\\pi d^2$", "$\\mu_0 m_1m_2/2\\pi d^2$", "$\\mu_0 d^2/4\\pi m_1m_2$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 76,
+    "questionCode": "CHEM_2021_76",
+    "text": "Pauli's exclusion principle: two electrons in same orbital have:",
+    "options": ["Vertical spins", "Angular spins", "Same spins", "Opposite spins"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 77,
+    "questionCode": "CHEM_2021_77",
+    "text": "Electron pairs shared in N2 molecule:",
+    "options": ["Two", "Three", "One", "Four"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 78,
+    "questionCode": "CHEM_2021_78",
+    "text": "Redox of hypo and Iodine, S oxidation changes:",
+    "options": ["+2 to +2.5", "+2.5 to +2.0", "+2 to +3", "+1 to +2"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 79,
+    "questionCode": "CHEM_2021_79",
+    "text": "Phenol + water solution is:",
+    "options": ["Homogeneous", "Heterogeneous", "Colloidal", "Azeotropic"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 80,
+    "questionCode": "CHEM_2021_80",
+    "text": "Anhydrous oxalic acid for 1L of 0.1N solution?",
+    "options": ["45g", "9g", "4.5g", "0.9g"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 81,
+    "questionCode": "CHEM_2021_81",
+    "text": "Sulphate concentration 0.25M in Al2(SO4)3. Al2(SO4)3 concentration?",
+    "options": ["0.25M", "0.0625M", "0.0833M", "0.125M"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 82,
+    "questionCode": "CHEM_2021_82",
+    "text": "Species representing conjugate acid base:",
+    "options": ["HCl, H2O", "H3PO4, H3O+", "HSO3-, SO3 2-", "H2CO3, CO2"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 83,
+    "questionCode": "CHEM_2021_83",
+    "text": "[H+] of NaOH solution if pOH is 11.3:",
+    "options": ["2e-3", "2.7e-3", "2.7e-12", "6.2e-8"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 84,
+    "questionCode": "CHEM_2021_84",
+    "text": "HCl dissociates completely means:",
+    "options": ["Dissoc to H+ and Cl-", "Does not dissoc", "Prod gaseous prod", "Not neutralized"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 85,
+    "questionCode": "CHEM_2021_85",
+    "text": "Impurities in metallurgy called:",
+    "options": ["Flux", "Gangue", "Slag", "Ore"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 86,
+    "questionCode": "CHEM_2021_86",
+    "text": "German silver alloy of:",
+    "options": ["Ag,Cu,Zn", "Ag,Cu,Au", "Cu,Zn,Ni", "Cu,Zn,Fe"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 87,
+    "questionCode": "CHEM_2021_87",
+    "text": "Dissociation of weak electrolytes is:",
+    "options": ["100%", ">=30%", "<=10%", "<3%"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 88,
+    "questionCode": "CHEM_2021_88",
+    "text": "Faraday 2nd law weights proportional to:",
+    "options": ["Chem equiv weight", "Current", "Equiv density", "Molecular weight"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 89,
+    "questionCode": "CHEM_2021_89",
+    "text": "Zn electrode in 0.1M ZnSO4 95% dissoc potential?",
+    "options": ["-0.76V", "+0.76V", "-0.79V", "+0.79V"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 90,
+    "questionCode": "CHEM_2021_90",
+    "text": "Does not corrode in air:",
+    "options": ["Cu", "Al", "Ag", "Fe"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 91,
+    "questionCode": "CHEM_2021_91",
+    "text": "Provide cathodic protection to Iron:",
+    "options": ["Zn,Cu", "Al,Cu", "Al,Ni", "Al,Zn"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 92,
+    "questionCode": "CHEM_2021_92",
+    "text": "Hardness of water caused by:",
+    "options": ["Undissolved Ca/Mg", "Undissolved Cu/Mg", "Dissolved Ca/Mg", "Undissolved CaCO3"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 93,
+    "questionCode": "CHEM_2021_93",
+    "text": "204mg CaSO4/L hardness in CaCO3 equivalent:",
+    "options": ["150ppm", "136ppm", "204ppm", "150ppm"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 94,
+    "questionCode": "CHEM_2021_94",
+    "text": "Hard water blocks radiators due to:",
+    "options": ["Insoluble Ca/Mg salts", "Insoluble Na", "Insoluble phosphate", "Insoluble K"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 95,
+    "questionCode": "CHEM_2021_95",
+    "text": "Incorrect about polymerisation:",
+    "options": ["MW rises in condensation", "Growth one active centre in addition", "No byproduct in addition", "MW increases in addition"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 96,
+    "questionCode": "CHEM_2021_96",
+    "text": "Which is a thermoplastic:",
+    "options": ["Teflon", "Natural rubber", "Neoprene", "Buna-S"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 97,
+    "questionCode": "CHEM_2021_97",
+    "text": "Feature of good fuel:",
+    "options": ["High moisture", "Spontaneous combustion", "Low CV", "High CV"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 98,
+    "questionCode": "CHEM_2021_98",
+    "text": "Producer gas is mixture of:",
+    "options": ["CO+N2", "CO+H2", "CO+CH4", "N2+H2"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 99,
+    "questionCode": "CHEM_2021_99",
+    "text": "Dissolved oxygen measurement in 5 days 20C:",
+    "options": ["BOD", "COD", "BDO", "TOD"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 100,
+    "questionCode": "CHEM_2021_100",
+    "text": "Green house gas:",
+    "options": ["H2", "N2", "CO", "CO2"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 101,
+    "questionCode": "CSE_2021_101",
+    "text": "Gate output 1 if input has odd number of 1s?",
+    "options": ["NOR", "NAND", "XOR", "XNOR"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 102,
+    "questionCode": "CSE_2021_102",
+    "text": "Gate acts as controlled inverter?",
+    "options": ["NAND", "EX-OR", "NOR", "EX-NOR"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 103,
+    "questionCode": "CSE_2021_103",
+    "text": "Mux IC for full adder/subtractor?",
+    "options": ["SN74151 only", "(i) & (iii)", "SN74153 only", "(ii) & (iv)"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 104,
+    "questionCode": "CSE_2021_104",
+    "text": "Simplified Boolean $F(w,x,y,z)=\\Sigma(0,1,2,4,5,6,8,9,12,13,14)$?",
+    "options": ["$y'+w'z'+xz'$", "$w'+w'x'+yz'$", "$x'+w'z'+yz$", "$y+wz+xz$"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 105,
+    "questionCode": "CSE_2021_105",
+    "text": "Race around problem in JK Flip flop is:",
+    "options": ["Q=1 & Q'=1", "Q=0 & Q=0", "Toggling more than once", "Q neither 0 nor 1"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 106,
+    "questionCode": "CSE_2021_106",
+    "text": "Logic gates with set of inputs/outputs is arrangement of:",
+    "options": ["Combinational", "Logic", "Design", "Register"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 107,
+    "questionCode": "CSE_2021_107",
+    "text": "Flipflops connected in cascade to receive common clock?",
+    "options": ["Demux", "Register", "Counter", "Shift register"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 108,
+    "questionCode": "CSE_2021_108",
+    "text": "Address lines in 80386?",
+    "options": ["16 bits", "20 bits", "24 bits", "32 bits"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 109,
+    "questionCode": "CSE_2021_109",
+    "text": "8086 register to store CPU registers for later?",
+    "options": ["Code seg", "Data seg", "Extra seg", "Stack seg"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 110,
+    "questionCode": "CSE_2021_110",
+    "text": "Flag for signed arithmetic overflow?",
+    "options": ["CF", "AC", "DF", "OF"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 111,
+    "questionCode": "CSE_2021_111",
+    "text": "Interrupt vector address of NMI in 8086?",
+    "options": ["0008h", "0004h", "0002h", "000Ch"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 112,
+    "questionCode": "CSE_2021_112",
+    "text": "$(4021.2)_8 = (\\_)_{10}$?",
+    "options": ["511.1", "511.4", "536.1", "536.4"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 113,
+    "questionCode": "CSE_2021_113",
+    "text": "Interface for internal storage to external devices?",
+    "options": ["I/O interface", "Input interface", "Output interface", "I/O bus"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 114,
+    "questionCode": "CSE_2021_114",
+    "text": "Idea of cache memory is based on:",
+    "options": ["Locality of reference", "90-10 rule", "Cluster references", "Slowest memories"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 115,
+    "questionCode": "CSE_2021_115",
+    "text": "MIMD stands for:",
+    "options": ["Multiple Instr Multiple Data", "Mult Instr Memory Data", "Mem Instr Mult Data", "Mult Info Mem Data"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 116,
+    "questionCode": "CSE_2021_116",
+    "text": "Concerned with transfer between main memory and CPU?",
+    "options": ["I/O Processor", "Control register", "Cache organization", "Stack organization"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 117,
+    "questionCode": "CSE_2021_117",
+    "text": "Incorrect about associative memory:",
+    "options": ["Accessed by content", "Parallel search", "Specified content locate", "Inexpensive than RAM"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 118,
+    "questionCode": "CSE_2021_118",
+    "text": "Stack-organised computer uses instruction of:",
+    "options": ["Indirect addressing", "Two-addressing", "Zero addressing", "Index addressing"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 119,
+    "questionCode": "CSE_2021_119",
+    "text": "Not a token of C language:",
+    "options": ["Keyword", "Identifier", "Operator", "Comment"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 120,
+    "questionCode": "CSE_2021_120",
+    "text": "In C, octal number assignment begins with:",
+    "options": ["-1", "1", "0", "00"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 121,
+    "questionCode": "CSE_2021_121",
+    "text": "Code: mark=35; puts(mark>=40?\"Passed\":\"Failed\"); output?",
+    "options": ["Passed", "Failed", "Error", "Conditional Term"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 122,
+    "questionCode": "CSE_2021_122",
+    "text": "Program pauses for input at:",
+    "options": ["printf()", "scanf()", "return()", "exit()"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 123,
+    "questionCode": "CSE_2021_123",
+    "text": "Output of printf(\"%d\", (25<<1>>2<<2>>3))?",
+    "options": ["25", "6", "22", "50"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 124,
+    "questionCode": "CSE_2021_124",
+    "text": "Output of printf(\"%d\", -2[array]) for {10,20,30}?",
+    "options": ["10", "-20", "-30", "30"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 125,
+    "questionCode": "CSE_2021_125",
+    "text": "Directive places contents of header in program?",
+    "options": ["#define", "#ifdef", "#include", "#pragma"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 126,
+    "questionCode": "CSE_2021_126",
+    "text": "How many values can function return at a time?",
+    "options": ["System dependent", "Infinite", "Only one", "Two"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 127,
+    "questionCode": "CSE_2021_127",
+    "text": "Double pointers created for int a[5], b[2][5]?",
+    "options": ["One", "Five", "Seven", "Twelve"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 128,
+    "questionCode": "CSE_2021_128",
+    "text": "Display(50) prints statement how many times?",
+    "options": ["1225", "1276", "1275", "51"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 129,
+    "questionCode": "CSE_2021_129",
+    "text": "Organization of data in memory is:",
+    "options": ["Algorithm", "Program", "Data structure", "Data type"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 130,
+    "questionCode": "CSE_2021_130",
+    "text": "Structure used to evaluate postfix:",
+    "options": ["Tree", "Linked list", "Stack", "Queue"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 131,
+    "questionCode": "CSE_2021_131",
+    "text": "Final queue output after operations?",
+    "options": ["1", "4", "7", "9"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 132,
+    "questionCode": "CSE_2021_132",
+    "text": "Sorting with lowest worst-case time?",
+    "options": ["Insertion", "Selection", "Merge", "Quick"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 133,
+    "questionCode": "CSE_2021_133",
+    "text": "Best for almost sorted list?",
+    "options": ["Selection", "Insertion", "Merge", "Quick"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 134,
+    "questionCode": "CSE_2021_134",
+    "text": "Worst case Bubble Sort time?",
+    "options": ["Theta(n)", "n log n", "n^1.5", "Theta(n^2)"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 135,
+    "questionCode": "CSE_2021_135",
+    "text": "Which sorted pairs merged efficiently?",
+    "options": ["(10,20,30,40),(15,25,35,45)", "(10,15,20,25),(30,35,40,45)", "(10,20,30,35),(15,25,40,45)", "(10,15,20,45),(25,30,35,40)"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 136,
+    "questionCode": "CSE_2021_136",
+    "text": "Bubble sort 2nd pass output for {14,33,27,35,10}?",
+    "options": ["14,27,33,10,35", "14,27,10,33,35", "10,14,27,33,35", "14,10,27,33,35"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 137,
+    "questionCode": "CSE_2021_137",
+    "text": "Best case binary search time?",
+    "options": ["n", "n log n", "Theta(1)", "n^2"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 138,
+    "questionCode": "CSE_2021_138",
+    "text": "Binary search efficient due to data being:",
+    "options": ["Random", "Sorted", "Unsorted", "Indexed"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 139,
+    "questionCode": "CSE_2021_139",
+    "text": "BIOS contains routine for:",
+    "options": ["POST", "CPU bus", "Internal clock", "Interrupt Service"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 140,
+    "questionCode": "CSE_2021_140",
+    "text": "Topology provides security, robustness, no traffic?",
+    "options": ["Mesh", "Ring", "Star", "Bus"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 141,
+    "questionCode": "CSE_2021_141",
+    "text": "Purpose of network mask:",
+    "options": ["Address from source", "Dest from network", "Address from destination", "Source from network"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 142,
+    "questionCode": "CSE_2021_142",
+    "text": "Mask, prefix, suffix for 12.23.24.78/8?",
+    "options": ["255.0.0.0; 8; 24", "255.0.0.0; 24; 8", "255.255.0.0; 24; 8", "255.255.0.0; 8:24"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 143,
+    "questionCode": "CSE_2021_143",
+    "text": "Color model for toner in laser printer:",
+    "options": ["RGB", "RGBY", "CMY", "CMYK"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 144,
+    "questionCode": "CSE_2021_144",
+    "text": "Odd man out for Network benefits:",
+    "options": ["Sharing", "Medium", "Low reliability", "Flexibility"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 145,
+    "questionCode": "CSE_2021_145",
+    "text": "Characteristic of switched networks:",
+    "options": ["Regular topo", "SDM", "Multiple paths", "Nodes know content"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 146,
+    "questionCode": "CSE_2021_146",
+    "text": "Twisted pair bandwidth depends on:",
+    "options": ["Thickness/Distance", "Transmission", "Copper", "Format"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 147,
+    "questionCode": "CSE_2021_147",
+    "text": "Needed by twisted pair for longer distance?",
+    "options": ["Repeaters", "Amplifiers", "Multipliers", "Routers"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 148,
+    "questionCode": "CSE_2021_148",
+    "text": "ARP Packet size for IPv4/Ethernet?",
+    "options": ["4", "8", "16", "28"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 149,
+    "questionCode": "CSE_2021_149",
+    "text": "Supported by data link layer (OSI):",
+    "options": ["FTP", "TCP", "UDP", "PPP"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 150,
+    "questionCode": "CSE_2021_150",
+    "text": "Key design issue of network layer:",
+    "options": ["Error control", "Detection", "Routing", "Dialogue"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 151,
+    "questionCode": "CSE_2021_151",
+    "text": "Data link layer error detecting code:",
+    "options": ["Parity", "Hamming", "Gray", "CRC"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 152,
+    "questionCode": "CSE_2021_152",
+    "text": "Not a motherboard component:",
+    "options": ["Processor", "BIOS", "Memory chips", "External Modem"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 153,
+    "questionCode": "CSE_2021_153",
+    "text": "Converts physical docs to machine text:",
+    "options": ["OCR", "Scanner", "Plotter", "Smart Pen"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 154,
+    "questionCode": "CSE_2021_154",
+    "text": "Supervisor call is used for:",
+    "options": ["Admin call", "Control", "Root users", "Resource management"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 155,
+    "questionCode": "CSE_2021_155",
+    "text": "True about threads:",
+    "options": ["More user level threads", "Kernel switch faster", "OS not for kernel", "OS for user schedule"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 156,
+    "questionCode": "CSE_2021_156",
+    "text": "System call including SetTime()?",
+    "options": ["Process", "Info Maintenance", "File", "Device"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 157,
+    "questionCode": "CSE_2021_157",
+    "text": "Process finishes I/O service, enters:",
+    "options": ["Running", "Ready", "Wait", "Suspended"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 158,
+    "questionCode": "CSE_2021_158",
+    "text": "Semaphores solve problem of:",
+    "options": ["Race", "Critical section", "Hardware", "Process synchronization"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 159,
+    "questionCode": "CSE_2021_159",
+    "text": "Paged memory average access time calculation:",
+    "options": ["3.0ns", "68.0ns", "68.5ns", "65ns"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 160,
+    "questionCode": "CSE_2021_160",
+    "text": "Second chance algorithm equivalent to:",
+    "options": ["LRU", "Optimal", "MRU", "FIFO"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 161,
+    "questionCode": "CSE_2021_161",
+    "text": "Scheduling algorithm better for heavy load:",
+    "options": ["FCFS", "LOOK", "C-SCAN", "SSTF"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 162,
+    "questionCode": "CSE_2021_162",
+    "text": "Multiple complete paths for a file:",
+    "options": ["Single", "Two-level", "Tree", "Acyclic graph"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 163,
+    "questionCode": "CSE_2021_163",
+    "text": "Total FCFS seek time calculation:",
+    "options": ["450", "500", "400", "540"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 164,
+    "questionCode": "CSE_2021_164",
+    "text": "Fastest way to access a row:",
+    "options": ["ROWID", "INDEX", "JOIN", "SELECT"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 165,
+    "questionCode": "CSE_2021_165",
+    "text": "Key that can have NULL value:",
+    "options": ["Primary", "Candidate", "Domain", "Clustering"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 166,
+    "questionCode": "CSE_2021_166",
+    "text": "Database structure maintained in:",
+    "options": ["Redolog", "Data file", "Control file", "Structure file"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 167,
+    "questionCode": "CSE_2021_167",
+    "text": "Relations from ER model always in:",
+    "options": ["4NF", "3NF", "2NF", "1NF"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 168,
+    "questionCode": "CSE_2021_168",
+    "text": "Attribute value divided into subparts:",
+    "options": ["Single", "Composite", "Multivalued", "Derived"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 169,
+    "questionCode": "CSE_2021_169",
+    "text": "SQL type to store images/audio:",
+    "options": ["BLOB", "Text Area", "Multimedia", "Video"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 170,
+    "questionCode": "CSE_2021_170",
+    "text": "Operator for pattern matching:",
+    "options": ["GREP", "REGEXP", "LIKE", "BLOB"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 171,
+    "questionCode": "CSE_2021_171",
+    "text": "Pointer to private SQL area:",
+    "options": ["Relation", "Trigger", "Object", "Explicit cursor"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 172,
+    "questionCode": "CSE_2021_172",
+    "text": "Trigger capturing rows inserted/deleted:",
+    "options": ["Row-level", "Column-level", "Statement-level", "Compound"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 173,
+    "questionCode": "CSE_2021_173",
+    "text": "Output of Sailor/Reserves SQL query?",
+    "options": ["Reserved a boat", "Reserved all", "Atleast two", "Utmost three"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 174,
+    "questionCode": "CSE_2021_174",
+    "text": "Language supporting data hiding concept:",
+    "options": ["BASIC", "C", "C++", "FORTRAN"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 175,
+    "questionCode": "CSE_2021_175",
+    "text": "False about virtual functions in C++:",
+    "options": ["Class member", "Object pointers", "Defined in base", "Can be static"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 176,
+    "questionCode": "CSE_2021_176",
+    "text": "Output of class first calculation program?",
+    "options": ["Error", "1 20 0", "2 20 -1", "1 20 -1"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 177,
+    "questionCode": "CSE_2021_177",
+    "text": "Function overloading means:",
+    "options": ["Different names", "Same arguments", "Different arguments", "Same names different arguments"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 178,
+    "questionCode": "CSE_2021_178",
+    "text": "Not correct about friend function:",
+    "options": ["Priv/Pub part", "Dot membership", "Can be called like normal", "Access private members"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 179,
+    "questionCode": "CSE_2021_179",
+    "text": "Inheritance in C++ default access specifier:",
+    "options": ["Package", "Private", "Protected", "Public"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 180,
+    "questionCode": "CSE_2021_180",
+    "text": "Output of virtual void process code?",
+    "options": ["6", "5", "Compilation error", "25"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 181,
+    "questionCode": "CSE_2021_181",
+    "text": "Template class is also called:",
+    "options": ["Base class", "Container", "Generic class", "Virtual class"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 182,
+    "questionCode": "CSE_2021_182",
+    "text": "Not applicable to operator overloading in C++:",
+    "options": ["Only existing", "Precedence change", "Default overloaded", "Unary friend args"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 183,
+    "questionCode": "CSE_2021_183",
+    "text": "Dynamic binding done using keyword:",
+    "options": ["Dynamic", "Static", "Virtual", "Abstract"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 184,
+    "questionCode": "CSE_2021_184",
+    "text": "True statement for abstract classes:",
+    "options": ["Atleast two methods", "Can instantiate", "Child implement parent", "Cannot implement interface"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 185,
+    "questionCode": "CSE_2021_185",
+    "text": "Smallest integer data type in JAVA:",
+    "options": ["Byte", "Short", "Int", "Long"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 186,
+    "questionCode": "CSE_2021_186",
+    "text": "Range of byte integer type:",
+    "options": ["-128 to 127", "-128 to +127", "0 to 255", "-256 to 255"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 187,
+    "questionCode": "CSE_2021_187",
+    "text": "Java code output with elements {9,8,7,6,5,4,3,2,1,11}?",
+    "options": ["50", "51", "52", "53"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 188,
+    "questionCode": "CSE_2021_188",
+    "text": "Output of class demo run() code?",
+    "options": ["Hi Hi", "Hi followed by exception", "Compilation error", "Exception"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 189,
+    "questionCode": "CSE_2021_189",
+    "text": "Keyword to access packages in JAVA:",
+    "options": ["Include", "Import", "Extends", "Implements"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 190,
+    "questionCode": "CSE_2021_190",
+    "text": "Reserved keyword in JAVA:",
+    "options": ["Method", "System", "Strictfp", "Main"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 191,
+    "questionCode": "CSE_2021_191",
+    "text": "Subclass can call constructor of superclass using:",
+    "options": ["Parent", "Base", "This", "Super"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 192,
+    "questionCode": "CSE_2021_192",
+    "text": "Package containing scanner class?",
+    "options": ["java.io", "java.util", "java.sql", "java.lang"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 193,
+    "questionCode": "CSE_2021_193",
+    "text": "Symbol for ID selector in CSS:",
+    "options": [".", "#", "*", "@"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 194,
+    "questionCode": "CSE_2021_194",
+    "text": "How many levels of headings in HTML?",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 195,
+    "questionCode": "CSE_2021_195",
+    "text": "Attribute for alternate text for image:",
+    "options": ["src", "alt", "href", "id"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 196,
+    "questionCode": "CSE_2021_196",
+    "text": "Tag for italic text:",
+    "options": ["<b>", "<i>", "<u>", "<s>"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 197,
+    "questionCode": "CSE_2021_197",
+    "text": "Correct tag for ordered list:",
+    "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 198,
+    "questionCode": "CSE_2021_198",
+    "text": "Extension of HTML file:",
+    "options": [".txt", ".exe", ".html", ".css"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 199,
+    "questionCode": "CSE_2021_199",
+    "text": "Tag for table row:",
+    "options": ["<td>", "<th>", "<table>", "<tr>"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 200,
+    "questionCode": "CSE_2021_200",
+    "text": "CSS property to change text color:",
+    "options": ["text-color", "color", "font-color", "bg-color"],
+    "correctAnswerNum": 1
+  }
+]

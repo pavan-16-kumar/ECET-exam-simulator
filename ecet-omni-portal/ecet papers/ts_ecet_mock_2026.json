@@ -1,0 +1,149 @@
+[
+  {
+    "questionNumber": 1,
+    "questionCode": "MATH_2026_01",
+    "text": "If $A$ and $B$ are symmetric matrices of the same order, then $AB - BA$ is a:",
+    "options": ["Skew-symmetric matrix", "Symmetric matrix", "Zero matrix", "Identity matrix"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 2,
+    "questionCode": "MATH_2026_02",
+    "text": "The value of $\\lim_{x \\to 0} \\frac{\\sin 5x}{x}$ is",
+    "options": ["0", "1", "5", "1/5"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 51,
+    "questionCode": "PHYS_2026_51",
+    "text": "The dimensional formula for Work is the same as that of:",
+    "options": ["Force", "Power", "Energy", "Momentum"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 52,
+    "questionCode": "PHYS_2026_52",
+    "text": "Which of the following is considered a scalar quantity in physics?",
+    "options": ["Velocity", "Acceleration", "Force", "Work"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 76,
+    "questionCode": "CHEM_2026_76",
+    "text": "Which of the following quantum numbers determines the spatial shape of an atomic orbital?",
+    "options": ["Principal quantum number", "Azimuthal quantum number", "Magnetic quantum number", "Spin quantum number"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 77,
+    "questionCode": "CHEM_2026_77",
+    "text": "What is the expected pH value of a 0.001 M HCl aqueous solution?",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 101,
+    "questionCode": "CSE_2026_101",
+    "text": "Which of the following represents the correct standard sequence of states in a process life cycle within an Operating System?",
+    "options": ["New -> Running -> Ready -> Waiting -> Terminated", "New -> Ready -> Running -> Waiting -> Terminated", "Running -> New -> Ready -> Waiting -> Terminated", "New -> Ready -> Waiting -> Running -> Terminated"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 102,
+    "questionCode": "CSE_2026_102",
+    "text": "Which CPU scheduling algorithm is most likely to suffer from the 'Convoy Effect', where short processes wait excessively for a long process to release the CPU?",
+    "options": ["Round Robin", "Shortest Job First", "First Come First Serve", "Priority Scheduling"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 103,
+    "questionCode": "CSE_2026_103",
+    "text": "A situation where a process holds at least one resource and is actively waiting to acquire additional resources currently held by other processes is defined as:",
+    "options": ["Mutual Exclusion", "Circular Wait", "No Preemption", "Hold and Wait"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 104,
+    "questionCode": "CSE_2026_104",
+    "text": "Which memory management technique divides the logical address space into variable-sized blocks based on the program's logical structure, which can subsequently lead to external fragmentation?",
+    "options": ["Paging", "Segmentation", "Contiguous Allocation", "Virtual Memory"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 105,
+    "questionCode": "CSE_2026_105",
+    "text": "In a database ER Diagram, which geometrical symbol is strictly used to represent a relationship between entities?",
+    "options": ["Rectangle", "Oval", "Diamond", "Triangle"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 106,
+    "questionCode": "CSE_2026_106",
+    "text": "Which database normal form strictly dictates that a relational table must not contain any partial dependencies (i.e., non-prime attributes depending only on part of a composite primary key)?",
+    "options": ["First Normal Form (1NF)", "Second Normal Form (2NF)", "Third Normal Form (3NF)", "Boyce-Codd Normal Form (BCNF)"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 107,
+    "questionCode": "CSE_2026_107",
+    "text": "A key that is chosen to uniquely identify a record in a table, and is strictly prohibited from accepting NULL values, is known as the:",
+    "options": ["Super Key", "Candidate Key", "Primary Key", "Foreign Key"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 108,
+    "questionCode": "CSE_2026_108",
+    "text": "What is the worst-case time complexity of directly accessing an element in an array using its computed index?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 109,
+    "questionCode": "CSE_2026_109",
+    "text": "Which of the following is a primary structural advantage of a Linked List over a standard Array in C?",
+    "options": ["Faster random access of elements via index", "Dynamic size allocation and faster O(1) insertion/deletion at known nodes", "Less memory usage per element", "Built-in sequential binary search support"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 110,
+    "questionCode": "CSE_2026_110",
+    "text": "Evaluating a postfix expression (Reverse Polish Notation) programmatically is a classic application of which linear data structure?",
+    "options": ["Queue", "Linked List", "Tree", "Stack"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 111,
+    "questionCode": "CSE_2026_111",
+    "text": "To computationally solve the problem of wasted memory space at the front of an array-based queue after continuous dequeue operations, which specific data structure is utilized?",
+    "options": ["Double-ended Queue", "Priority Queue", "Circular Queue", "Stack"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 112,
+    "questionCode": "CSE_2026_112",
+    "text": "In a Binary Search Tree (BST) architecture, which specific depth-first traversal algorithm will invariably visit the nodes resulting in an ascending sorted order?",
+    "options": ["Preorder Traversal", "Inorder Traversal", "Postorder Traversal", "Level-order Traversal"],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 113,
+    "questionCode": "CSE_2026_113",
+    "text": "Which sorting algorithm algorithmically employs a 'divide and conquer' strategy around a pivot element and typically achieves an average time complexity of O(n log n)?",
+    "options": ["Bubble Sort", "Selection Sort", "Insertion Sort", "Quick Sort"],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 114,
+    "questionCode": "CSE_2026_114",
+    "text": "Which directory structure architecture is most commonly implemented in modern operating systems to resolve naming conflicts and organize files effectively in hierarchies?",
+    "options": ["Single-Level Directory", "Two-Level Directory", "Tree-Structured Directory", "Acyclic-Graph Directory"],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 115,
+    "questionCode": "CSE_2026_115",
+    "text": "A systemic situation where multiple processes access and manipulate shared data concurrently, causing the final value of the data to unpredictably depend on the execution order, is formally known as:",
+    "options": ["Deadlock", "Starvation", "Race Condition", "Mutual Exclusion"],
+    "correctAnswerNum": 2
+  }
+]
