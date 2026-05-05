@@ -1,0 +1,2406 @@
+[
+  {
+    "questionNumber": 1,
+    "questionCode": "MATH_2020_50",
+    "text": "The Fourier series of $f(x)=2x+1$ in $-\\pi < x < \\pi$ is",
+    "options": [
+      "$1-4\\Sigma\\frac{(-1)^{n}}{n}sin(nx)$",
+      "$1-4\\Sigma\\frac{(-1)^{n}}{n}cos(nx)$",
+      "$1+4\\Sigma\\frac{(-1)^{n}}{n^{2}}cos(nx)$",
+      "$1+4\\Sigma\\frac{(-1)^{n}}{n^{2}}sin(nx)$"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 2,
+    "questionCode": "MATH_2020_49",
+    "text": "The Fourier series of $f(x)=x^{2}$ in $-\\pi \\leq x \\leq \\pi$ is",
+    "options": [
+      "$f(x)=\\pi^{2}/3+4\\Sigma\\frac{(-1)^{n}}{n}cos(nx)$",
+      "$f(x)=\\pi^{2}/3+\\Sigma\\frac{(-1)^{n}}{n^{2}}cos(nx)$",
+      "$f(x)=2\\pi^{2}/3+4\\Sigma\\frac{(-1)^{n}}{n^{2}}cos(nx)$",
+      "$f(x)=\\pi^{2}/3+4\\Sigma\\frac{(-1)^{n}}{n^{2}}cos(nx)$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 3,
+    "questionCode": "MATH_2020_48",
+    "text": "If $t\\frac{dx}{dt}+x(t)=sin~t$, then $\\frac{d}{ds}X(s)=$",
+    "options": [
+      "$-s/(s^{2}+1)$",
+      "$s/(s^{2}+1)$",
+      "$-1/s(s^{2}+1)$",
+      "$1/(s^{2}+1)$"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 4,
+    "questionCode": "MATH_2020_47",
+    "text": "If $\\frac{dx}{dt}+3x=0, x(0)=1$, then $d/ds X(s) =$",
+    "options": [
+      "$-1/(s-3)$",
+      "$1/(s+3)$",
+      "$-1/(s+3)^{2}$",
+      "$1/(s-3)^{2}$"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 5,
+    "questionCode": "MATH_2020_46",
+    "text": "The inverse Laplace transform of $\\frac{1}{s^{2}(s^{2}+1)}$ is",
+    "options": [
+      "$2t+sin~t$",
+      "$2t-sin~t$",
+      "$t+sin~t$",
+      "t-sint"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 6,
+    "questionCode": "MATH_2020_45",
+    "text": "The inverse Laplace transform of $\\frac{3}{s^{2}-9}$ is",
+    "options": [
+      "sinh 3t",
+      "cos 3t",
+      "$e^{-3t}$",
+      "e3t"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 7,
+    "questionCode": "MATH_2020_44",
+    "text": "Let $f(t)=t~sin~t$ Then the Laplace transform of f is",
+    "options": [
+      "$-2s/(1+s^{2})^{3}$",
+      "$-2s/(1+s^{2})^{2}$",
+      "$2s/(1+s^{2})^{3}$",
+      "$2s/(1+s^{2})^{2}$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 8,
+    "questionCode": "MATH_2020_43",
+    "text": "Let $f(t)=t^{2}e^{-3t}$ Then the Laplace transform of f is",
+    "options": [
+      "$-3/(s+3)^{3}$",
+      "$3/(s+3)^{3}$",
+      "$2/(s-3)^{3}$",
+      "$2/(s+3)^{3}$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 9,
+    "questionCode": "MATH_2020_42",
+    "text": "The Complementary function of $x^{2}\\frac{d^{2}y}{dx^{2}}+4x\\frac{dy}{dx}+2y=e^{x}$ is",
+    "options": [
+      "$C_{1}x^{1}+C_{2}x^{2}$",
+      "$C_{1}e^{x}+C_{2}e^{2x}$",
+      "$C_{1}x^{-1}+C_{2}x^{-2}$",
+      "$C_{1}e^{-x}+C_{2}e^{-2x}$"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 10,
+    "questionCode": "MATH_2020_41",
+    "text": "A particular integral of $(D-2)^{2}y=8(e^{2x}+sin~2x)$ is",
+    "options": [
+      "$4x^{2}e^{x}+cos~2x$",
+      "$4xe^{2x}-cos~2x$",
+      "$x^{2}e^{2x}+cos~2x$",
+      "$4x^{2}e^{2x}+cos~2x$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 11,
+    "questionCode": "MATH_2020_40",
+    "text": "Which of the following equations can be made exact by multiplying by $x^{2}$?",
+    "options": [
+      "$dy/dx+y=3x$",
+      "$(1/x)dy/dx-(1/x^{2})y=x$",
+      "$dy/dx+3y=x$",
+      "$dy/dx+(2/x)y=4$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 12,
+    "questionCode": "MATH_2020_39",
+    "text": "An integrating factor of $(e^{-2\\sqrt{x}}-y)dx-\\sqrt{x}dy=0$ is",
+    "options": [
+      "$e^{-2\\sqrt{x}}$",
+      "$e^{2\\sqrt{x}}/\\sqrt{x}$",
+      "$e^{-2\\sqrt{x}}$",
+      "$e^{-2\\sqrt{x}}/\\sqrt{x}$"
+    ],
+    "correctAnswerNum": 1,
+    "note": "Discrepancy found. Full marks awarded to all.[cite: 3]"
+  },
+  {
+    "questionNumber": 13,
+    "questionCode": "MATH_2020_38",
+    "text": "The differential equation of circles passing through origin and having centres on x-axis is",
+    "options": [
+      "$y^{\\prime}=2xy(x^{2}+y^{2})$",
+      "$y^{\\prime}=(y^{2}-x^{2})/2xy$",
+      "$y^{\\prime}=2xy/(x^{2}-y^{2})$",
+      "$y^{\\prime}=(x^{2}+y^{2})/2xy$"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 14,
+    "questionCode": "MATH_2020_37",
+    "text": "The solution of $xdy-(y-x~cos^{2}\\frac{y}{x})dx=0$ which passes through $(1,\\pi/4)$ is",
+    "options": [
+      "$y=\\frac{\\pi e}{4}e^{-tan(y/x)}$",
+      "$x=e^{-tan(y/x)}$",
+      "$x=e^{1-tan(y/x)}$",
+      "$4y/\\pi=e^{1-tan(y/x)}$"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 15,
+    "questionCode": "MATH_2020_36",
+    "text": "The general solution of the differential equation $(xy+x^{3}y)dy-(1+y^{2})dx=0$ is",
+    "options": [
+      "$(1+x^{2})/(1+y^{2})=Cx^{2}$",
+      "$(1+x^{2})(1+y^{2})=Cx^{2}$",
+      "$(1+x^{2})/(1+y^{2})=Ce^{x^{2}}$",
+      "$(1+x^{2})(1+y^{2})=Ce^{x^{2}}$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 16,
+    "questionCode": "MATH_2020_35",
+    "text": "The order of differential equation corresponding to $y=Ae^{x}+Be^{3x}+Ce^{5x}$ is",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "2"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 17,
+    "questionCode": "MATH_2020_34",
+    "text": "The approximate value of $\\int_{0}^{4}f(x)dx$ from table data using trapezium sum is",
+    "options": [
+      "1.32121",
+      "1.33212",
+      "1.32942",
+      "1.31212"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 18,
+    "questionCode": "MATH_2020_33",
+    "text": "The root mean square value of the sine function $f(t)=A sin t$ on $[0,2\\pi]$ is",
+    "options": [
+      "2A",
+      "A",
+      "$A/\\sqrt{2}$",
+      "$A\\sqrt{2}$"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 19,
+    "questionCode": "MATH_2020_32",
+    "text": "Let $V_{1}$ be the volume of solid formed by parabola $y^{2}=4ax$ cut off by latus-rectum about y-axis. Then $V_{1}=$",
+    "options": [
+      "$\\pi a^{3}$",
+      "$8\\pi a^{3}/5$",
+      "$4\\pi a^{3}/5$",
+      "$2\\pi a^{3}/5$"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 20,
+    "questionCode": "MATH_2020_31",
+    "text": "The area (in square units) of one of the curvilinear triangles bounded by $y=sin~x, y=cos~x, x=0, x=\\pi/2$ and x-axis is",
+    "options": [
+      "\\sqrt{2}",
+      "$2-\\sqrt{2}$",
+      "$2+\\sqrt{2}$",
+      "2\\sqrt{2}"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 21,
+    "questionCode": "MATH_2020_30",
+    "text": "$lim_{n\\rightarrow\\infty}\\frac{3^{k}+6^{k}+9^{k}+............................+(3n)^{k}}{n^{k+1}}=$",
+    "options": [
+      "$\\frac{3^{k}}{k!}$",
+      "$\\frac{3^{k+1}}{k}$",
+      "$\\frac{3^{k}}{k+1}$",
+      "$\\frac{3^{k+1}}{k+1}$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 22,
+    "questionCode": "MATH_2020_29",
+    "text": "$\\int_{0}^{\\pi/2}(sin^{5/2}x-cos^{5/2}x)dx=$",
+    "options": [
+      "2",
+      "-1",
+      "1",
+      "0"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 23,
+    "questionCode": "MATH_2020_28",
+    "text": "$\\int\\frac{dx}{9~sin^{2}x+4~cos^{2}x}=$",
+    "options": [
+      "$\\frac{1}{6}tan^{-1}(tan\\frac{3}{2}x)+C$",
+      "$\\frac{1}{12}tan^{-1}(tan\\frac{2}{3}x)+C$",
+      "$\\frac{1}{9}tan^{-1}(tan~x)+C$",
+      "$\\frac{1}{6}tan^{-1}(\\frac{3}{2}tan~x)+C$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 24,
+    "questionCode": "MATH_2020_27",
+    "text": "$\\int\\frac{dx}{e^{x}+1}=$",
+    "options": [
+      "$-log(1+e^{x})+C$",
+      "$log(\\frac{e^{x}}{1+e^{x}})+C$",
+      "$log(1+e^{x})+C$",
+      "$log(1+e^{-x})+C$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 25,
+    "questionCode": "MATH_2020_26",
+    "text": "$lim_{x\\rightarrow0}(\\frac{tan~x}{x})^{1/x^{2}}=$",
+    "options": [
+      "3",
+      "e/3",
+      "$e^{1/3}$",
+      "1"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 26,
+    "questionCode": "MATH_2020_25",
+    "text": "If tan $u=\\frac{x^{3}+y^{3}}{x-y},$ x!=y. then $x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}=$",
+    "options": [
+      "tan 2u",
+      "cos 2u",
+      "sin 2u",
+      "2u"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 27,
+    "questionCode": "MATH_2020_24",
+    "text": "The interval in which the rational function $f(x)=\\frac{x^{2}+x+1}{x^{2}-x+1}$ is decreasing is",
+    "options": [
+      "(-inf, -1) U (1, inf)",
+      "(-1, 5)",
+      "(-inf, 1)",
+      "(-1, 1)"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 28,
+    "questionCode": "MATH_2020_23",
+    "text": "The slope of the tangent to the curve $x^{2/3}+y^{2/3}=2$ at (1,1) is",
+    "options": [
+      "2",
+      "1",
+      "-1",
+      "0"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 29,
+    "questionCode": "MATH_2020_22",
+    "text": "If $y=sin(msin^{-1}x)$ then $(1-x^{2})\\frac{d^{2}y}{dx^{2}}-x\\frac{dy}{dx}=$",
+    "options": [
+      "-my",
+      "$m^{2}y$",
+      "$-m^{2}y$",
+      "my"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 30,
+    "questionCode": "MATH_2020_21",
+    "text": "Let $f:\\mathbb{R}\\rightarrow\\mathbb{R}$ be defined by $f(x)=|x+1|+|x+2|+|x+3|$ If f is differentiable at x, then x belongs to the set",
+    "options": [
+      "{1,2,3}",
+      "$\\mathbb{R}-\\{-1,-2,-3\\}$",
+      "$\\mathbb{R}-\\{1,2,3\\}$",
+      "{-1,-2,-3}"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 31,
+    "questionCode": "MATH_2020_20",
+    "text": "If $y=cos^{-1}(\\frac{a^{2}-x^{2}}{a^{2}+x^{2}})+sin^{-1}(\\frac{2ax}{a^{2}+x^{2}})$ then $\\frac{dy}{dx}=$",
+    "options": [
+      "$2a^{2}/(a^{2}+x^{2})$",
+      "$2a/(a^{2}+x^{2})$",
+      "$4a/(a^{2}+x^{2})$",
+      "$4a^{2}/(a^{2}+x^{2})$"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 32,
+    "questionCode": "MATH_2020_19",
+    "text": "If the circle $x^{2}+y^{2}-4x+2fy+4=0$ touches both coordinate axes, then the set of all possible values of f is",
+    "options": [
+      "{4}",
+      "{-2,2}",
+      "{-\\sqrt{2},\\sqrt{2}}",
+      "{-4,4}"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 33,
+    "questionCode": "MATH_2020_18",
+    "text": "The equation of the circle passing through (0,0), (0,1) and (1,0) is",
+    "options": [
+      "$x^{2}+y^{2}+x+y-2=0$",
+      "$x^{2}+y^{2}-x+y=0$",
+      "$x^{2}+y^{2}+x-y=0$",
+      "$x^{2}+y^{2}-x-y=0$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 34,
+    "questionCode": "MATH_2020_17",
+    "text": "The equation of the circle whose ends of a diameter are (1,2) and (5,2) is",
+    "options": [
+      "$x^{2}+y^{2}-6x-4y+5=0$",
+      "$x^{2}+y^{2}-6x-4y+13=0$",
+      "$x^{2}+y^{2}+6x-4y+9=0$",
+      "$x^{2}+y^{2}-6x-4y+9=0$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 35,
+    "questionCode": "MATH_2020_16",
+    "text": "The complex number $\\frac{2-i}{(1-2i)^{2}}$ lies in the",
+    "options": [
+      "fourth quadrant",
+      "third quadrant",
+      "second quadrant",
+      "first quadrant"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 36,
+    "questionCode": "MATH_2020_15",
+    "text": "$cis\\frac{\\pi}{5}cis\\frac{\\pi}{10}cis\\frac{3\\pi}{10}cis\\frac{4\\pi}{10}=$",
+    "options": [
+      "4",
+      "1",
+      "0",
+      "-1"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 37,
+    "questionCode": "MATH_2020_14",
+    "text": "If $sin \\alpha+sin \\beta+sin \\gamma=3$, then the value of $tan\\frac{\\alpha}{2}+tan\\frac{\\beta}{2}+tan\\frac{\\gamma}{2}$ is",
+    "options": [
+      "3",
+      "5/2",
+      "2",
+      "3/2"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 38,
+    "questionCode": "MATH_2020_13",
+    "text": "Consider a triangle ABC and its incircle. Let 2S be the perimeter. Let D,E, F lie on AB, BC and CA respectively, then $AD+BE+CF=$",
+    "options": [
+      "2S",
+      "S",
+      "S/3",
+      "S/2"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 39,
+    "questionCode": "MATH_2020_12",
+    "text": "If in a $\\Delta ABC$ with usual notation $(a-b)(S-c)=(b-c)(S-a).$ then",
+    "options": [
+      "a, b, c are in AP.",
+      "r1, r2, r3 are in GP.",
+      "r1, r2, r3 are in AP.",
+      "a,b,c are in GP."
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 40,
+    "questionCode": "MATH_2020_11",
+    "text": "If $sinh^{3}x-cosh^{3}x=\\frac{Ke^{x}-e^{Kx}}{1-K}.$ then $K=$",
+    "options": [
+      "4",
+      "3",
+      "-1",
+      "-3"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 41,
+    "questionCode": "MATH_2020_10",
+    "text": "If $tan^{-1}(\\frac{1-x}{1+x})=\\frac{1}{2}tan^{-1}x,$ then the value of x is",
+    "options": [
+      "2",
+      "$\\sqrt{3}$",
+      "1/\\sqrt{3}",
+      "0"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 42,
+    "questionCode": "MATH_2020_09",
+    "text": "If $\\theta_{1}, \\theta_{2}$ are solutions of the equation cos $2\\theta+2 sin 2\\theta=3,$ $tan \\theta_{1} \\neq tan \\theta_{2}$ then cot $\\theta_{1}$ cot $\\theta_{2} =$",
+    "options": [
+      "2",
+      "1",
+      "1/2",
+      "0"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 43,
+    "questionCode": "MATH_2020_08",
+    "text": "Assertion(A): tan 6º tan 42° tan 66° tan 78° =1. Reasoning(R): If 3A is not an odd multiple of $\\pi/2$ then. $tan~A\\cdot tan(60^{\\circ}+A)tan(60^{\\circ}-A)=tan 3A$",
+    "options": [
+      "A is false, R is true",
+      "A is true, R is false",
+      "A is true, R is true and R is not correct explanation of A",
+      "A is true, R is true and R is correct explanation of A"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 44,
+    "questionCode": "MATH_2020_07",
+    "text": "$sin^{2}10^{\\circ}+sin^{2}20^{\\circ}+sin^{2}30^{\\circ}+....................+sin^{2}80^{\\circ}+sin^{2}90^{\\circ}=$",
+    "options": [
+      "5",
+      "4",
+      "2",
+      "0"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 45,
+    "questionCode": "MATH_2020_06",
+    "text": "If $log_{10}k=A$ then $log_{10}(\\frac{1}{10k})$ is equal to",
+    "options": [
+      "(A+10k)",
+      "(A+k)",
+      "(A+10)",
+      "-(A+1)"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 46,
+    "questionCode": "MATH_2020_05",
+    "text": "If $\\frac{x^{2}+13x+15}{(2x+3)(x+3)^{2}}=\\frac{A}{2x+3}+\\frac{B}{x+3}+\\frac{C}{(x+3)^{2}}$ then $6A+9B+2C=$",
+    "options": [
+      "15",
+      "13",
+      "1",
+      "0"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 47,
+    "questionCode": "MATH_2020_04",
+    "text": "If $A=(a_{ij})_{3\\times3}$ is a real skew symmetric matrix, then $a_{11}+a_{22}+a_{33}+|A|=$",
+    "options": [
+      "4",
+      "3",
+      "1",
+      "0"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 48,
+    "questionCode": "MATH_2020_03",
+    "text": "If $A=\\begin{matrix}1&2&3\\\\ 2&3&4\\\\ 0&1&2\\end{matrix},$ $B=\\begin{matrix}1&w&w^{2}\\\\ w&w^{2}&1\\\\ w^{2}&1&w\\end{matrix},$ $C=\\begin{matrix}3&0&0\\\\ 0&3&0\\\\ 0&0&3\\end{matrix},$ $D=\\begin{matrix}0&0&3\\\\ 0&3&0\\\\ 3&0&0\\end{matrix},$ where w is complex cube root of unity. then the matrix having rank 1 is",
+    "options": [
+      "C",
+      "B",
+      "D",
+      "A"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 49,
+    "questionCode": "MATH_2020_02",
+    "text": "Let $A=\\begin{matrix}1&2&3\\\\ 2&3&4\\\\ 0&1&2\\end{matrix},$ $C=\\begin{matrix}3&0&0\\\\ 0&3&0\\\\ 0&0&3\\end{matrix}$ $E=\\begin{matrix}0&1&6\\\\ -1&0&8\\\\ -6&-8&0\\end{matrix}.$ $F=\\begin{matrix}1&6&0\\\\ 8&0&-8\\\\ 0&-6&-1\\end{matrix}.$ The non skew symmetric matrix having rank 2 is",
+    "options": [
+      "C",
+      "A",
+      "F",
+      "E"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 50,
+    "questionCode": "MATH_2020_01",
+    "text": "If $P=\\begin{matrix}1&2&3\\\\ 2&3&4\\\\ 0&1&2\\end{matrix}=A+B.$ where A is symmetric and B is skew symmetric, then $B=$",
+    "options": [
+      "$\\begin{matrix}0&1&1.5\\\\ -1&0&1.5\\\\ -1.5&-1.5&0\\end{matrix}$",
+      "$\\begin{matrix}2&3&1\\\\ -3&6&5\\\\ -1&-5&4\\end{matrix}$",
+      "$\\begin{matrix}0&0&3\\\\ 4&0&3\\\\ -3&-3&0\\end{matrix}$",
+      "$\\begin{matrix}2&4&3\\\\ -4&6&5\\\\ -3&-5&4\\end{matrix}$"
+    ],
+    "correctAnswerNum": 0,
+    "note": "For this question, discrepancy is found in question/answer. Full Marks is being awarded to all candidates.[cite: 3]"
+  },
+  {
+    "questionNumber": 51,
+    "questionCode": "PHYS_2020_75",
+    "text": "Meter bridge ratio 3:2. Balance point from left?",
+    "options": [
+      "40 cm",
+      "30 cm",
+      "60 cm",
+      "50 cm"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 52,
+    "questionCode": "PHYS_2020_74",
+    "text": "The magnetism of magnet is due to",
+    "options": [
+      "Earth pressure",
+      "Spin motion of electron",
+      "Cosmic rays",
+      "Earth"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 53,
+    "questionCode": "PHYS_2020_73",
+    "text": "Torque on bar magnet M in field B:",
+    "options": [
+      "-M.B",
+      "MB",
+      "BxM",
+      "MxB"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 54,
+    "questionCode": "PHYS_2020_72",
+    "text": "Stress in steel wire 2mm diameter with 72N force?",
+    "options": [
+      "32e7",
+      "2.292e7",
+      "20e6",
+      "16.6e6"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 55,
+    "questionCode": "PHYS_2020_71",
+    "text": "Work to blow bubble from 3cm to 4cm? (T=3.06e2 N/m)",
+    "options": [
+      "539.6e-6",
+      "5e-6",
+      "330e-4",
+      "450e-6"
+    ],
+    "correctAnswerNum": 0,
+    "note": "Discrepancy found. Marks awarded to all.[cite: 3]"
+  },
+  {
+    "questionNumber": 56,
+    "questionCode": "PHYS_2020_70",
+    "text": "Doppler effect apparent frequency formula (listener at rest, source moving towards):",
+    "options": [
+      "$n=nV_{o}/V$",
+      "$n=nv/v_{o}$",
+      "$n=n_{o}(V-V_{s})/v$",
+      "$n=n_{o}v/(V-V_{S})$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 57,
+    "questionCode": "PHYS_2020_69",
+    "text": "The frequency range of the audible sounds is",
+    "options": [
+      "Greater than 20,000 Hz",
+      "Less than 20 Hz",
+      "20Hz to 20,000 Hz",
+      "20KHz to 20MHz"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 58,
+    "questionCode": "PHYS_2020_68",
+    "text": "SHM line length 0.1m, velocity at mean position 0.2m/s. Time period?",
+    "options": [
+      "3 sec",
+      "2 sec",
+      "2.57 sec",
+      "1.57 sec"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 59,
+    "questionCode": "PHYS_2020_67",
+    "text": "Seconds pendulum length on planet with g=1/6 earth?",
+    "options": [
+      "0.165 m",
+      "2 m",
+      "1.5 m",
+      "0.15 m"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 60,
+    "questionCode": "PHYS_2020_66",
+    "text": "Power of motor lifting 200kg water 120m deep in 5 mins?",
+    "options": [
+      "755W",
+      "768W",
+      "784W",
+      "790W"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 61,
+    "questionCode": "PHYS_2020_65",
+    "text": "During the fall of a body released from a height:",
+    "options": [
+      "Both decr",
+      "Both incr",
+      "KE incr, PE decr",
+      "PE incr, KE decr"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 62,
+    "questionCode": "PHYS_2020_64",
+    "text": "Area under 'force - displacement' curve gives:",
+    "options": [
+      "Power",
+      "Impulse",
+      "Work",
+      "Time"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 63,
+    "questionCode": "PHYS_2020_63",
+    "text": "100kg block about to be pushed (coeff=0.4). Friction force?",
+    "options": [
+      "294N",
+      "392N",
+      "490N",
+      "196N"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 64,
+    "questionCode": "PHYS_2020_62",
+    "text": "Relationship between static, kinetic and rolling friction coefficients:",
+    "options": [
+      "s > k > r",
+      "s = k = r",
+      "s < k > r",
+      "s > k < r"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 65,
+    "questionCode": "PHYS_2020_61",
+    "text": "Stone thrown up reaches 50m in 10 sec. Time to reach ground from max height?",
+    "options": [
+      "5 sec",
+      "30 sec",
+      "10 sec",
+      "20 sec"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 66,
+    "questionCode": "PHYS_2020_60",
+    "text": "Shortest range for projection angles 15, 30, 45, 60 degrees?",
+    "options": [
+      "$\\sqrt{3u^{2}}/2g$",
+      "$u^{2}/2g$",
+      "$u^{2}/g$",
+      "$\\sqrt{3}u^{2}/2g$"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 67,
+    "questionCode": "PHYS_2020_59",
+    "text": "Splash of sound heard 2.05 sec after stone dropped 19.6m deep. Velocity of sound? (g=9.8)",
+    "options": [
+      "292 m/sec",
+      "392 m/sec",
+      "692 m/sec",
+      "592 m/sec"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 68,
+    "questionCode": "PHYS_2020_58",
+    "text": "Force $F=8i+10j+6k$ accelerates mass m at $2m/sec^{2}$. The mass is",
+    "options": [
+      "10/\\sqrt{2} kg",
+      "30 kg",
+      "$10\\sqrt{2}$ kg",
+      "20 kg"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 69,
+    "questionCode": "PHYS_2020_57",
+    "text": "If $|A+B|=|A-B|$ then the angle between A and B is",
+    "options": [
+      "pi/4",
+      "pi/3",
+      "pi",
+      "pi/2"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 70,
+    "questionCode": "PHYS_2020_56",
+    "text": "Heat added to a system is utilized for: A. Internal Energy B. Work done.",
+    "options": [
+      "Neither",
+      "Both A and B",
+      "only B",
+      "only A"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 71,
+    "questionCode": "PHYS_2020_55",
+    "text": "Convert $-15^{\\circ}C$ into Fahrenheit scale",
+    "options": [
+      "$5^{\\circ} F$",
+      "$10^{\\circ} F$",
+      "$15^{\\circ} F$",
+      "$20^{\\circ} F$"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 72,
+    "questionCode": "PHYS_2020_54",
+    "text": "The electrical resistance for superconductor is",
+    "options": [
+      "Depends on the material",
+      "Very high",
+      "Zero",
+      "Infinity"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 73,
+    "questionCode": "PHYS_2020_53",
+    "text": "Choose the correct form of Einstein's photoelectric equation.",
+    "options": [
+      "$hv_{o}=1/2mv^{2}-hv$",
+      "$hv_{o}=1/2mv^{2}+hv$",
+      "$hv=1/2mv^{2}-W_{o}$",
+      "$hv=1/2mv^{2}+W_{0}$"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 74,
+    "questionCode": "PHYS_2020_52",
+    "text": "Match Energy (iv-J), Force (ii-N), Power (i-W), Pressure (iii-Pa). Correct option:",
+    "options": [
+      "a-iv, b-ii. c-iii, d-i",
+      "a-i, b-ii. c-iii. d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iv. b-ii, c-i, d-iii"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 75,
+    "questionCode": "PHYS_2020_51",
+    "text": "The dimensional formula for Kinetic energy is",
+    "options": [
+      "MLT $T^{-2}$",
+      "$M~L^{2}T^{-1}$",
+      "$M~L^{2}T^{-2}$",
+      "$M^{\\circ}L^{\\circ}T^{\\circ}$"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 76,
+    "questionCode": "CHEM_2020_100",
+    "text": "Match Pollutants: Aerosols (B), Pesticides (D), Carcinogens (A), Radio active (C).",
+    "options": [
+      "i-B, ii-C",
+      "i-D. ii-A",
+      "i-D, ii-B",
+      "i-B, ii-D. iii-A, iv-C"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 77,
+    "questionCode": "CHEM_2020_99",
+    "text": "Which of the following gases is not a green house gas?",
+    "options": [
+      "Water vapour",
+      "Methane",
+      "Ozone",
+      "Carbon monoxide"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 78,
+    "questionCode": "CHEM_2020_98",
+    "text": "The air pollution caused during the Bhopal gas tragedy was by the release of",
+    "options": [
+      "Methyl Isocyanate",
+      "Hydrogen Cyanide",
+      "Ethyl Isocyanate",
+      "Methyl cyanide"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 79,
+    "questionCode": "CHEM_2020_97",
+    "text": "Match Gas: Water (D), Producer (A), Coal (B), Natural (C).",
+    "options": [
+      "1-C, 2-A",
+      "1-B. 2-A",
+      "1-D, 2-A, 3-C",
+      "1-D. 2-A, 3-B. 4-C"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 80,
+    "questionCode": "CHEM_2020_96",
+    "text": "Polychloroprene is also known as",
+    "options": [
+      "PVC",
+      "Buna-S",
+      "Butyl rubber",
+      "Neoprene"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 81,
+    "questionCode": "CHEM_2020_95",
+    "text": "Natural rubber is composed of ______ monomer units",
+    "options": [
+      "Butadiene",
+      "Isoprene",
+      "Isopropylene",
+      "Isobutylene"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 82,
+    "questionCode": "CHEM_2020_94",
+    "text": "Monomers for Nylon 6:6?",
+    "options": [
+      "Adipic acid/Hexamethylene diamine",
+      "Phenol/Formaldehyde",
+      "Styrene/Adipic",
+      "Vinyl chloride/Hexamethylene"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 83,
+    "questionCode": "CHEM_2020_93",
+    "text": "Solvent moves from low to high concentration through semi-permeable membrane:",
+    "options": [
+      "Flash distillation",
+      "Electrodialysis",
+      "Reverse Osmosis",
+      "Osmosis"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 84,
+    "questionCode": "CHEM_2020_92",
+    "text": "Which of the following is Unit of hardness of water",
+    "options": [
+      "Siemens",
+      "cm",
+      "ppm",
+      "mg"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 85,
+    "questionCode": "CHEM_2020_91",
+    "text": "Permanent Hardness of water is due to",
+    "options": [
+      "Carbonates",
+      "Chlorides",
+      "Bicarbonates",
+      "Hydroxides"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 86,
+    "questionCode": "CHEM_2020_90",
+    "text": "Match pH: SO2/CO2 humidity (c), Zn corrodes max (b), Al min (a), Zn min (d).",
+    "options": [
+      "i-c. ii-b. iii-a. iv-d",
+      "i-c. ii-d",
+      "i-c. ii-a",
+      "i-c. ii-b. iii-d"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 87,
+    "questionCode": "CHEM_2020_89",
+    "text": "Sacrificial metal that saves steel pipes from corrosion?",
+    "options": [
+      "Cadmium",
+      "Gold",
+      "Magnesium",
+      "Copper"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 88,
+    "questionCode": "CHEM_2020_88",
+    "text": "a: Pure metal resists corrosion. b: Theory of corrosion done in dry environment.",
+    "options": [
+      "a correct, b incorrect",
+      "a incorrect, b correct",
+      "Both incorrect",
+      "Both correct"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 89,
+    "questionCode": "CHEM_2020_87",
+    "text": "Highest oxidation potential in series?",
+    "options": [
+      "Gold",
+      "Copper",
+      "Lithium",
+      "Hydrogen"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 90,
+    "questionCode": "CHEM_2020_86",
+    "text": "Electrolyte in salt bridge of Galvanic cell?",
+    "options": [
+      "HCl",
+      "KCl",
+      "Fused Nacl",
+      "NaCl aq"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 91,
+    "questionCode": "CHEM_2020_85",
+    "text": "German silver consists of",
+    "options": [
+      "Fe. Cu. Ni",
+      "Cu, Zn. Ni",
+      "Cu. Al. Ni",
+      "Zn, Ni, Mn"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 92,
+    "questionCode": "CHEM_2020_84",
+    "text": "Match Processes: Froth floatation (c), Roasting (a), Calcination (d), Smelting (b).",
+    "options": [
+      "i-a. ii-d",
+      "i-b, ii-a",
+      "i-c. ii-d",
+      "i-c. ii-a, iii-d. iv-b"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 93,
+    "questionCode": "CHEM_2020_83",
+    "text": "Match: Ionic Product (c), Basic buffer (a), Bronsted Base (d), Acidic buffer (b).",
+    "options": [
+      "i-b. ii-d",
+      "i-c, ii-a, iii-d, iv-b",
+      "i-d. ii-c",
+      "i-a. ii-b"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 94,
+    "questionCode": "CHEM_2020_82",
+    "text": "pH value of 0.01 M HCl solution is",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 95,
+    "questionCode": "CHEM_2020_81",
+    "text": "Which compounds are Lewis acids?",
+    "options": [
+      "FeCl3, BCl3, H+",
+      "C6H6, N2, CH3OH",
+      "CH3COOH, Cl, OH",
+      "H2, NH3, NaOH"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 96,
+    "questionCode": "CHEM_2020_80",
+    "text": "Gram equivalent weight of oxalic acid?",
+    "options": [
+      "55 g",
+      "45 g",
+      "85 g",
+      "90g"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 97,
+    "questionCode": "CHEM_2020_79",
+    "text": "Volume of water needed for 1.8M H2SO4 from 250ml of 9M?",
+    "options": [
+      "1000 ml",
+      "250 ml",
+      "500 ml",
+      "750ml"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 98,
+    "questionCode": "CHEM_2020_78",
+    "text": "Which statement about oxidation numbers is false?",
+    "options": [
+      "Free element is zero",
+      "Halogens are always +1",
+      "Hydrogen in hydrides is negative",
+      "Oxygen in peroxide is -1"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 99,
+    "questionCode": "CHEM_2020_77",
+    "text": "Select the incorrect statement about atom structure.",
+    "options": [
+      "Nucleus = Protons + Neutrons",
+      "Neutrons = Mass - Atomic",
+      "Mass no = Protons + Electrons",
+      "Atomic no = electrons"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 100,
+    "questionCode": "CHEM_2020_76",
+    "text": "Match Quantum Numbers: Principal (4), Azimuthal (3), Magnetic (2), Spin (1).",
+    "options": [
+      "A-3, B-2, C-4, D-1",
+      "A-4. B-3. C-1. D-2",
+      "A-4, B-3, C-2. D-1",
+      "A-2, B-1, C-4. D-3"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 101,
+    "questionCode": "CSE_2020_200",
+    "text": "Output of echo(date('D ds M, Y')):",
+    "options": [
+      "MON 25th NOV, 2020",
+      "MONDAY 25 NOVEMBER",
+      "MON 25 NOV, 2020",
+      "25 MON NOV, 2020"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 102,
+    "questionCode": "CSE_2020_199",
+    "text": "PHP foreach loop syntax:",
+    "options": [
+      "foreach($x to $value)",
+      "foreach($x: $value)",
+      "foreach($x in $value)",
+      "foreach($x as $value)"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 103,
+    "questionCode": "CSE_2020_198",
+    "text": "PHP function to add elements at end of array:",
+    "options": [
+      "array_inserted()",
+      "array_push()",
+      "array_append()",
+      "array_end()"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 104,
+    "questionCode": "CSE_2020_197",
+    "text": "Operator not belonging to Javascript:",
+    "options": [
+      "?:",
+      "====",
+      "!==",
+      "==="
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 105,
+    "questionCode": "CSE_2020_196",
+    "text": "Correct syntax to create array in Javascript:",
+    "options": [
+      "I, II, & III only",
+      "III & IV only",
+      "II & III only",
+      "I only"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 106,
+    "questionCode": "CSE_2020_195",
+    "text": "Javascript function to divide string:",
+    "options": [
+      "divide()",
+      "getTokens()",
+      "split()",
+      "substring()"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 107,
+    "questionCode": "CSE_2020_194",
+    "text": "CSS property place image in middle of baseline:",
+    "options": [
+      "Middle-Align",
+      "Horizontal-Align",
+      "Vertical-Align",
+      "Image-Align"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 108,
+    "questionCode": "CSE_2020_193",
+    "text": "Syntax for external style sheet:",
+    "options": [
+      "<link href='x.css' align='centre'/>",
+      "<link rel='stylesheet' href='x.css'/>",
+      "<add href>",
+      "<a href>"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 109,
+    "questionCode": "CSE_2020_192",
+    "text": "HTML tag background image in table:",
+    "options": [
+      "<background><table>",
+      "<table background>",
+      "<background>",
+      "<td background>"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 110,
+    "questionCode": "CSE_2020_191",
+    "text": "______ tag adds super script to text in HTML.",
+    "options": [
+      "<sup_script>",
+      "<sscript>",
+      "<super>",
+      "<sup>"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 111,
+    "questionCode": "CSE_2020_190",
+    "text": "Method for main thread to stop last:",
+    "options": [
+      "join()",
+      "killfinal()",
+      "stopfinal()",
+      "live()"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 112,
+    "questionCode": "CSE_2020_189",
+    "text": "execute update() JDBC return:",
+    "options": [
+      "boolean",
+      "int",
+      "void",
+      "Result set"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 113,
+    "questionCode": "CSE_2020_188",
+    "text": "Which of the following is checked exception in Java?",
+    "options": [
+      "Arithmetic",
+      "String index",
+      "Null pointer",
+      "Illegal access"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 114,
+    "questionCode": "CSE_2020_187",
+    "text": "Output of class X/Y code?",
+    "options": [
+      "Hai y",
+      "Hai y Hai x",
+      "Hai x Hai y",
+      "Hai x"
+    ],
+    "correctAnswerNum": 0,
+    "note": "Discrepancy found. Marks awarded to all.[cite: 3]"
+  },
+  {
+    "questionNumber": 115,
+    "questionCode": "CSE_2020_186",
+    "text": "In Java, multiple inheritance implemented by:",
+    "options": [
+      "Inner",
+      "Class",
+      "Abstract",
+      "Interface"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 116,
+    "questionCode": "CSE_2020_185",
+    "text": "Class variable is also known as:",
+    "options": [
+      "Global",
+      "Final",
+      "Static",
+      "Local"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 117,
+    "questionCode": "CSE_2020_184",
+    "text": "Valid syntax constructor in Java:",
+    "options": [
+      "classname()",
+      "Returntype classname(void)",
+      "void classname",
+      "Returntype classname()"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 118,
+    "questionCode": "CSE_2020_183",
+    "text": "Keyword representing current object:",
+    "options": [
+      "curr",
+      "static",
+      "this",
+      "super"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 119,
+    "questionCode": "CSE_2020_182",
+    "text": " '>>>' operator in Java represents",
+    "options": [
+      "Shift right assignment",
+      "Shift right zero fill",
+      "Double shift",
+      "Shift right"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 120,
+    "questionCode": "CSE_2020_181",
+    "text": "The memory size of character in Java is",
+    "options": [
+      "8 bytes",
+      "4 bits",
+      "8 bits",
+      "16 bits"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 121,
+    "questionCode": "CSE_2020_180",
+    "text": "ios function to fill specified character:",
+    "options": [
+      "fillc()",
+      "fill()",
+      "setf()",
+      "setfill()"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 122,
+    "questionCode": "CSE_2020_179",
+    "text": "seekg() function move backwards 30 bytes:",
+    "options": [
+      "seekg(-30, ios::cur)",
+      "seekg(-30+ios::cur)",
+      "seekg(ios cur::-30)",
+      "seekg(ios::cur-30)"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 123,
+    "questionCode": "CSE_2020_178",
+    "text": "Valid pure virtual function declaration:",
+    "options": [
+      "void virtual xyz=0;",
+      "void virtual xyz {}",
+      "virtual void xyz=0;",
+      "virtual void xyz {}"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 124,
+    "questionCode": "CSE_2020_177",
+    "text": "Multiple inheritance syntax in C++:",
+    "options": [
+      "class A:: public B1, public B2",
+      "class A: public B1, public B2",
+      "class A extends B1, B2",
+      "class A public B1 & B2"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 125,
+    "questionCode": "CSE_2020_176",
+    "text": "Function overloading based on:",
+    "options": [
+      "Return only",
+      "Num, type, return",
+      "Num and Type only",
+      "Num only"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 126,
+    "questionCode": "CSE_2020_175",
+    "text": "Unary decrement overload function:",
+    "options": [
+      "friend point op--(point&, point&)",
+      "friend void op--(point&, point)",
+      "friend void operator--(point&)",
+      "friend point operator--"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 127,
+    "questionCode": "CSE_2020_174",
+    "text": "Not a member dereferencing operator in C++:",
+    "options": [
+      "*",
+      ".*",
+      "->*",
+      "::"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 128,
+    "questionCode": "CSE_2020_173",
+    "text": "Deleting dynamic array syntax:",
+    "options": [
+      "delete P[]",
+      "delete[] P",
+      "delete P[5]",
+      "delete P"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 129,
+    "questionCode": "CSE_2020_172",
+    "text": "Symbol to define destructor:",
+    "options": [
+      "#",
+      "&",
+      "!",
+      "~"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 130,
+    "questionCode": "CSE_2020_171",
+    "text": "Data encapsulation means",
+    "options": [
+      "Acquiring",
+      "Grouping",
+      "Hiding implementation",
+      "Accessing"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 131,
+    "questionCode": "CSE_2020_170",
+    "text": "PL/SQL exception notification:",
+    "options": [
+      "Catch",
+      "RAISE",
+      "Notification",
+      "Throw"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 132,
+    "questionCode": "CSE_2020_169",
+    "text": "Valid syntax of 'for' in PL/SQL:",
+    "options": [
+      "for i: 1<10",
+      "for i: 1 to 10",
+      "for i IN 1..10 LOOP",
+      "for(i=1;i<10;i++)"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 133,
+    "questionCode": "CSE_2020_168",
+    "text": "Deleting index command:",
+    "options": [
+      "drop index <index-name>",
+      "delete name",
+      "drop num",
+      "delete num"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 134,
+    "questionCode": "CSE_2020_167",
+    "text": "Not a data type of SQL:",
+    "options": [
+      "CLOB",
+      "DATESTAMP",
+      "Timestamp",
+      "Time"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 135,
+    "questionCode": "CSE_2020_166",
+    "text": "3 NF non-prime attribute must be:",
+    "options": [
+      "Non-transitive & Fully functional",
+      "Fully functional",
+      "Non-transitive",
+      "Transitive"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 136,
+    "questionCode": "CSE_2020_165",
+    "text": "No partial functional dependencies:",
+    "options": [
+      "2 NF",
+      "BCNF",
+      "3 NF",
+      "1 NF"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 137,
+    "questionCode": "CSE_2020_164",
+    "text": "DDL Commands list:",
+    "options": [
+      "ii,iii",
+      "i,ii,iv",
+      "i,iv",
+      "i,v"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 138,
+    "questionCode": "CSE_2020_163",
+    "text": "Operation displays relation:",
+    "options": [
+      "Display",
+      "Join",
+      "Projection",
+      "Select"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 139,
+    "questionCode": "CSE_2020_162",
+    "text": "Multivalued attributes in ER diagram:",
+    "options": [
+      "Dash Ellipses",
+      "Double Ellipses",
+      "Dashed Rect",
+      "Double Rectangle"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 140,
+    "questionCode": "CSE_2020_161",
+    "text": "DBMS data stored described by level:",
+    "options": [
+      "Physical/View",
+      "View",
+      "Physical",
+      "Logical"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 141,
+    "questionCode": "CSE_2020_160",
+    "text": "False about Access Matrix:",
+    "options": [
+      "Row=Capability",
+      "Col=ACL",
+      "Access(i,j) set",
+      "Rows=domains, Col=objs"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 142,
+    "questionCode": "CSE_2020_159",
+    "text": "False about indexed disk-file allocation:",
+    "options": [
+      "Highly reliable",
+      "Block overhead",
+      "Eliminates Ext Frag",
+      "Sequential/Random"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 143,
+    "questionCode": "CSE_2020_158",
+    "text": "Not a disk scheduling algorithm:",
+    "options": [
+      "LOOK",
+      "SRTF",
+      "C-SCAN",
+      "SSTF"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 144,
+    "questionCode": "CSE_2020_157",
+    "text": "Disadvantage of FIFO page replacement:",
+    "options": [
+      "Complex",
+      "Worst Rate",
+      "Belady's Anomaly",
+      "Convoy"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 145,
+    "questionCode": "CSE_2020_156",
+    "text": "Fragmentation in paging:",
+    "options": [
+      "Neither",
+      "Both",
+      "External",
+      "Internal"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 146,
+    "questionCode": "CSE_2020_155",
+    "text": "Blocked sender term:",
+    "options": [
+      "Multiple",
+      "Unbounded",
+      "Bounded",
+      "Zero capacity"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 147,
+    "questionCode": "CSE_2020_154",
+    "text": "Banker's algorithm time complexity:",
+    "options": [
+      "O(mn^2)",
+      "O(m^2 n)",
+      "O(m^2 n^2)",
+      "O(mn)"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 148,
+    "questionCode": "CSE_2020_153",
+    "text": "Scheduler invoked only once per job:",
+    "options": [
+      "All",
+      "Medium-term",
+      "Long-term",
+      "Short-term"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 149,
+    "questionCode": "CSE_2020_152",
+    "text": "RR CPU scheduling large quantum degenerates to:",
+    "options": [
+      "OPT",
+      "SRTF",
+      "FCFS",
+      "SJF"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 150,
+    "questionCode": "CSE_2020_151",
+    "text": "Running program service request:",
+    "options": [
+      "Interrupt",
+      "Procedure",
+      "Function",
+      "System call"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 151,
+    "questionCode": "CSE_2020_150",
+    "text": "FTP typically uses port:",
+    "options": [
+      "21",
+      "24",
+      "8008",
+      "80"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 152,
+    "questionCode": "CSE_2020_149",
+    "text": "An optical fiber is a",
+    "options": [
+      "Rectangular",
+      "Rounded",
+      "Spherical",
+      "Cylindrical"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 153,
+    "questionCode": "CSE_2020_148",
+    "text": "A MAC address is",
+    "options": [
+      "2 bytes",
+      "6 bytes",
+      "8 bytes",
+      "16 bytes"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 154,
+    "questionCode": "CSE_2020_147",
+    "text": "Protocol for local area networks:",
+    "options": [
+      "HTTP",
+      "SMTP",
+      "TCP/IP",
+      "Ethernet"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 155,
+    "questionCode": "CSE_2020_146",
+    "text": "Which of the following IP addresses belongs to class C ?",
+    "options": [
+      "224.0.0.0",
+      "240.0.0.0",
+      "192.0.0.0",
+      "128.0.0.0"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 156,
+    "questionCode": "CSE_2020_145",
+    "text": "SMTP server TCP port:",
+    "options": [
+      "25",
+      "24",
+      "26",
+      "52"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 157,
+    "questionCode": "CSE_2020_144",
+    "text": "Bluetooth is an example of",
+    "options": [
+      "WAN",
+      "VAN",
+      "Personal Private Network",
+      "LAN"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 158,
+    "questionCode": "CSE_2020_143",
+    "text": "Layer providing services to user:",
+    "options": [
+      "Physical",
+      "Presentation",
+      "Session",
+      "Application"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 159,
+    "questionCode": "CSE_2020_142",
+    "text": "Data link layer purpose:",
+    "options": [
+      "Error free packets",
+      "Synchronizing",
+      "Managing",
+      "Connection"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 160,
+    "questionCode": "CSE_2020_141",
+    "text": "ATX motherboard RAM type:",
+    "options": [
+      "SISI",
+      "DIMM",
+      "SIMM",
+      "SODIMM"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 161,
+    "questionCode": "CSE_2020_140",
+    "text": "Structure for Breadth First Traversal:",
+    "options": [
+      "Tree",
+      "Queue",
+      "Array",
+      "Stack"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 162,
+    "questionCode": "CSE_2020_139",
+    "text": "Worst case for linear search?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 163,
+    "questionCode": "CSE_2020_138",
+    "text": "Array={4,5,9,10} Bubble sort iterations?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 164,
+    "questionCode": "CSE_2020_137",
+    "text": "Best time complexity of Insertion Sort:",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n)^2",
+      "O(n^2)"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 165,
+    "questionCode": "CSE_2020_136",
+    "text": "Linked list elements not stored at",
+    "options": [
+      "variable",
+      "segmented",
+      "contiguous",
+      "non-contiguous"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 166,
+    "questionCode": "CSE_2020_135",
+    "text": "DATE macro format:",
+    "options": [
+      "YYYY DD MM",
+      "DD MMM YYYY",
+      "MMM DD YYYY",
+      "HH:MM:SS"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 167,
+    "questionCode": "CSE_2020_134",
+    "text": "Operator for accessing structure member:",
+    "options": [
+      "@",
+      "&",
+      "->",
+      "."
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 168,
+    "questionCode": "CSE_2020_133",
+    "text": "strcpy(s1, s2) performs:",
+    "options": [
+      "Concat s1 to s2",
+      "Concat s2 to s1",
+      "s1 into s2",
+      "s2 into s1"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 169,
+    "questionCode": "CSE_2020_132",
+    "text": "A=(60)10, calculate (~A)2:",
+    "options": [
+      "1100 0011",
+      "0011 0001",
+      "0011 1101",
+      "0000 1100"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 170,
+    "questionCode": "CSE_2020_131",
+    "text": "Unsigned long storage size:",
+    "options": [
+      "4 bytes",
+      "8 bytes",
+      "16 bytes",
+      "32 bytes"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 171,
+    "questionCode": "CSE_2020_130",
+    "text": "Memory access time of CPU is always:",
+    "options": [
+      "Compiler dependent",
+      "Equal",
+      "Shorter",
+      "Longer"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 172,
+    "questionCode": "CSE_2020_129",
+    "text": "Programmed I/O transfers data between:",
+    "options": [
+      "Memory/Input",
+      "Memory/Peripheral",
+      "CPU/Peripheral",
+      "CPU/Memory"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 173,
+    "questionCode": "CSE_2020_128",
+    "text": "Vector processors are also known as:",
+    "options": [
+      "Array Processors",
+      "Sharm",
+      "Multi",
+      "Structure"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 174,
+    "questionCode": "CSE_2020_127",
+    "text": "Offset used in conditional branching:",
+    "options": [
+      "8 bit",
+      "16 bit",
+      "32 bit",
+      "24 bit"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 175,
+    "questionCode": "CSE_2020_126",
+    "text": "Abbreviate MIMD:",
+    "options": [
+      "Streams/stack",
+      "Mult stack",
+      "Mult instr strings",
+      "Mult instr streams, mult data streams"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 176,
+    "questionCode": "CSE_2020_125",
+    "text": "Performance measure of cache memory:",
+    "options": [
+      "Read ratio",
+      "Latency ratio",
+      "Hit ratio",
+      "Miss ratio"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 177,
+    "questionCode": "CSE_2020_124",
+    "text": "2's complement of 1010:",
+    "options": [
+      "1011",
+      "0111",
+      "0110",
+      "1100"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 178,
+    "questionCode": "CSE_2020_123",
+    "text": "Feature included in cache memory organization:",
+    "options": [
+      "High space utilization",
+      "Switching",
+      "Fixed point",
+      "Variable point"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 179,
+    "questionCode": "CSE_2020_122",
+    "text": "(1458)10 in hex:",
+    "options": [
+      "B65",
+      "65B",
+      "55B",
+      "5B2"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 180,
+    "questionCode": "CSE_2020_121",
+    "text": "(1011001)2 in Excess-3:",
+    "options": [
+      "1110 0010",
+      "1011 1100",
+      "0001 1010",
+      "1001 0001"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 181,
+    "questionCode": "CSE_2020_120",
+    "text": "The non-maskable interrupt requests:",
+    "options": [
+      "Type 4",
+      "Type 3",
+      "Type 2",
+      "Type 1"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 182,
+    "questionCode": "CSE_2020_119",
+    "text": "80486 Microprocessor package pin count:",
+    "options": [
+      "32",
+      "64",
+      "168",
+      "132"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 183,
+    "questionCode": "CSE_2020_118",
+    "text": "Microprocessor using multiplexed data/address lines:",
+    "options": [
+      "8086",
+      "80386",
+      "80486",
+      "80286"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 184,
+    "questionCode": "CSE_2020_117",
+    "text": "IC 8279 interface internal address for selecting data buffer:",
+    "options": [
+      "B=1",
+      "B=0",
+      "A=1",
+      "A=0"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 185,
+    "questionCode": "CSE_2020_116",
+    "text": "DMA data transfer initiated after receiving signal:",
+    "options": [
+      "BHE",
+      "ALE",
+      "HLDA",
+      "ACK"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 186,
+    "questionCode": "CSE_2020_115",
+    "text": "REP-Repeat Instruction prefix uses register:",
+    "options": [
+      "DX",
+      "CX",
+      "BX",
+      "AX"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 187,
+    "questionCode": "CSE_2020_114",
+    "text": "Instruction to convert AH/AL unpacked BCD to binary in AL:",
+    "options": [
+      "AAD",
+      "ADC",
+      "ACD",
+      "ADD"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 188,
+    "questionCode": "CSE_2020_113",
+    "text": "MOV CX, AX; SUB AL, BL are examples of:",
+    "options": [
+      "Indexed",
+      "Register Indirect",
+      "Register",
+      "Immediate"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 189,
+    "questionCode": "CSE_2020_112",
+    "text": "Maximum mode of 8086 uses",
+    "options": [
+      "No processor",
+      "Only one",
+      "One or more than one",
+      "Zero processors"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 190,
+    "questionCode": "CSE_2020_111",
+    "text": "Sign flag of 8086 set to 1 when result is:",
+    "options": [
+      "Unsigned",
+      "Zero",
+      "Positive",
+      "Negative"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 191,
+    "questionCode": "CSE_2020_110",
+    "text": "Karnaugh map tool for functions up to",
+    "options": [
+      "6 variables",
+      "5 variables",
+      "4 variables",
+      "2 variables"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 192,
+    "questionCode": "CSE_2020_109",
+    "text": "f=(xyz+x'yz...) is called:",
+    "options": [
+      "Product of squares",
+      "Sum of products",
+      "Product of sums",
+      "Sum of squares"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 193,
+    "questionCode": "CSE_2020_108",
+    "text": "A 4-variable Karnaugh map contains",
+    "options": [
+      "16 cells",
+      "8 cells",
+      "4 cells",
+      "2 cells"
+    ],
+    "correctAnswerNum": 0
+  },
+  {
+    "questionNumber": 194,
+    "questionCode": "CSE_2020_107",
+    "text": "Block not under 80286 architecture:",
+    "options": [
+      "BIU",
+      "Execution unit",
+      "Address unit",
+      "Control unit"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 195,
+    "questionCode": "CSE_2020_106",
+    "text": "BIU mechanism implements",
+    "options": [
+      "Serial",
+      "CISC",
+      "RISC",
+      "Pipeline architecture"
+    ],
+    "correctAnswerNum": 3
+  },
+  {
+    "questionNumber": 196,
+    "questionCode": "CSE_2020_105",
+    "text": "8086 microprocessor can operate in",
+    "options": [
+      "quad state mode",
+      "tristate mode",
+      "dual mode",
+      "single mode"
+    ],
+    "correctAnswerNum": 2
+  },
+  {
+    "questionNumber": 197,
+    "questionCode": "CSE_2020_104",
+    "text": "8086 is a ______ bit microprocessor.",
+    "options": [
+      "32-bit",
+      "16-bit",
+      "8-bit",
+      "4-bit"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 198,
+    "questionCode": "CSE_2020_103",
+    "text": "Handshaking functions in PPI 8255 using:",
+    "options": [
+      "Port D",
+      "Port C",
+      "Port B",
+      "Port A"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 199,
+    "questionCode": "CSE_2020_102",
+    "text": "The operation that is not performed by the CPU is",
+    "options": [
+      "Shift",
+      "Data transfer",
+      "Arithmetic",
+      "Logic"
+    ],
+    "correctAnswerNum": 1
+  },
+  {
+    "questionNumber": 200,
+    "questionCode": "CSE_2020_101",
+    "text": "The output of NOR gate is",
+    "options": [
+      "Low if all inputs High",
+      "Low if all inputs low",
+      "High if all inputs low",
+      "High if all inputs high"
+    ],
+    "correctAnswerNum": 2
+  }
+]
